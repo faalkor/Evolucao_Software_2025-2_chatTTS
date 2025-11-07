@@ -1,0 +1,2604 @@
+{
+  "repository": "2noise/ChatTTS",
+  "filters": {
+    "state": "closed",
+    "exclude_bots": true
+  },
+  "total_prs": 100,
+  "prs": [
+    {
+      "number": 946,
+      "title": "Visualization of the ChatTTS codebase",
+      "state": "closed",
+      "user": "ivanmilevtues",
+      "created_at": "2025-06-28T19:45:58Z",
+      "updated_at": "2025-07-06T15:11:15Z",
+      "closed_at": "2025-07-06T15:11:14Z",
+      "merged_at": "2025-07-06T15:11:14Z",
+      "comments_count": 3,
+      "issue_comments_count": 3,
+      "review_comments_count": 0,
+      "comments": [
+        {
+          "id": 3041400027,
+          "user": "ivanmilevtues",
+          "body": "Thanks for the response!\r\n@fumiama just a quick question you want to add the link to the diagrams into the README?\r\n\r\nAs the issue with the structure change, we also have a FREE Github Action which I can setup for you and it can update the diagrams once a week so they are always up-to-date :)",
+          "created_at": "2025-07-06T12:16:35Z",
+          "updated_at": "2025-07-06T12:16:48Z",
+          "comment_type": "issue"
+        },
+        {
+          "id": 3041437507,
+          "user": "fumiama",
+          "body": "Thank you for your advice. I mean that at this stage, it’s fine to include a link but not directly embed it since it’s supplementary information that people can explore if they’re interested. Additionally, by including the link, visitors can be directed to your project and might also be interested in checking out the documentation of other projects.\r\n\r\nPlease include the link under **Introduction → Tips**, right after **Awesome-ChatTTS**, and make sure to add it for every language version.",
+          "created_at": "2025-07-06T12:50:00Z",
+          "updated_at": "2025-07-06T12:50:00Z",
+          "comment_type": "issue"
+        },
+        {
+          "id": 3041661841,
+          "user": "ivanmilevtues",
+          "body": "@fumiama thanks for the fast reply I updated accordingly. Let me know if you like it :). I also added the Note and Tip as translations to the pages that were missing it ",
+          "created_at": "2025-07-06T13:49:35Z",
+          "updated_at": "2025-07-06T13:49:35Z",
+          "comment_type": "issue"
+        }
+      ]
+    },
+    {
+      "number": 937,
+      "title": "Numpy 2+ support",
+      "state": "closed",
+      "user": "BBC-Esq",
+      "created_at": "2025-05-22T10:53:39Z",
+      "updated_at": "2025-05-23T13:26:09Z",
+      "closed_at": "2025-05-23T12:59:03Z",
+      "merged_at": "2025-05-23T12:59:03Z",
+      "comments_count": 4,
+      "issue_comments_count": 4,
+      "review_comments_count": 0,
+      "comments": [
+        {
+          "id": 2900831932,
+          "user": "BBC-Esq",
+          "body": "I'm not sure why this workflow would have failed but let me know your thoughts.",
+          "created_at": "2025-05-22T11:12:59Z",
+          "updated_at": "2025-05-22T11:12:59Z",
+          "comment_type": "issue"
+        },
+        {
+          "id": 2904290527,
+          "user": "fumiama",
+          "body": "I will check it. It seems not your fault.",
+          "created_at": "2025-05-23T12:39:43Z",
+          "updated_at": "2025-05-23T12:39:43Z",
+          "comment_type": "issue"
+        },
+        {
+          "id": 2904387017,
+          "user": "BBC-Esq",
+          "body": "Thanks, when will a new release be done so that \"pip check\" doesn't show a conflict?",
+          "created_at": "2025-05-23T13:14:30Z",
+          "updated_at": "2025-05-23T13:14:30Z",
+          "comment_type": "issue"
+        },
+        {
+          "id": 2904421068,
+          "user": "fumiama",
+          "body": "You can upgrade and check it now.",
+          "created_at": "2025-05-23T13:26:07Z",
+          "updated_at": "2025-05-23T13:26:07Z",
+          "comment_type": "issue"
+        }
+      ]
+    },
+    {
+      "number": 932,
+      "title": "module 'torch.serialization' has no attribute 'FILE_LIKE''",
+      "state": "closed",
+      "user": "aibaoku",
+      "created_at": "2025-04-28T01:21:22Z",
+      "updated_at": "2025-05-06T13:52:09Z",
+      "closed_at": "2025-05-06T13:52:09Z",
+      "merged_at": "2025-05-06T13:52:08Z",
+      "comments_count": 0,
+      "issue_comments_count": 0,
+      "review_comments_count": 0,
+      "comments": []
+    },
+    {
+      "number": 927,
+      "title": "Tf conversion",
+      "state": "closed",
+      "user": "loda616",
+      "created_at": "2025-04-06T11:24:35Z",
+      "updated_at": "2025-04-23T09:15:37Z",
+      "closed_at": "2025-04-23T09:15:29Z",
+      "merged_at": null,
+      "comments_count": 0,
+      "issue_comments_count": 0,
+      "review_comments_count": 0,
+      "comments": []
+    },
+    {
+      "number": 913,
+      "title": "Add FastAPI-based OpenAI-compatible Text-to-Speech API and Audio Format Conversion Tools",
+      "state": "closed",
+      "user": "yueguobin",
+      "created_at": "2025-03-09T18:25:33Z",
+      "updated_at": "2025-03-14T03:32:51Z",
+      "closed_at": "2025-03-14T03:32:51Z",
+      "merged_at": "2025-03-14T03:32:51Z",
+      "comments_count": 4,
+      "issue_comments_count": 4,
+      "review_comments_count": 0,
+      "comments": [
+        {
+          "id": 2722011009,
+          "user": "yueguobin",
+          "body": "看来我得先解决CI的问题了，虽然tests目录下的测试脚本与我提交的代码并无关系，但是需要通过CI才能完成PR。\r\n![2025-03-14_00-59-59](https://github.com/user-attachments/assets/9cfb36b4-de76-4974-81b0-6ebe903536b1)\r\n",
+          "created_at": "2025-03-13T17:01:32Z",
+          "updated_at": "2025-03-13T17:01:32Z",
+          "comment_type": "issue"
+        },
+        {
+          "id": 2722017858,
+          "user": "fumiama",
+          "body": "确实是这样，但是既然你没有对ci做改动，说明是ci本身的问题，所以我可以先合并了，之后我们再想办法。",
+          "created_at": "2025-03-13T17:03:55Z",
+          "updated_at": "2025-03-13T17:03:55Z",
+          "comment_type": "issue"
+        },
+        {
+          "id": 2722050690,
+          "user": "yueguobin",
+          "body": "\r\n\r\n\r\n> 确实是这样，但是既然你没有对ci做解决办法，说明是ci本身的问题，所以我可以先合并了，之后我们再想。\r\n\r\n第一次PR，不熟悉流程，这个页面还需要我做些什么操作么？",
+          "created_at": "2025-03-13T17:13:37Z",
+          "updated_at": "2025-03-13T17:13:37Z",
+          "comment_type": "issue"
+        },
+        {
+          "id": 2723322238,
+          "user": "fumiama",
+          "body": "不用。",
+          "created_at": "2025-03-14T03:32:02Z",
+          "updated_at": "2025-03-14T03:32:02Z",
+          "comment_type": "issue"
+        }
+      ]
+    },
+    {
+      "number": 912,
+      "title": "兼容openai的tts api部分接口，并增加ogg和wav音频格式的输出",
+      "state": "closed",
+      "user": "yueguobin",
+      "created_at": "2025-03-07T17:09:43Z",
+      "updated_at": "2025-03-09T17:27:18Z",
+      "closed_at": "2025-03-09T17:27:18Z",
+      "merged_at": null,
+      "comments_count": 0,
+      "issue_comments_count": 0,
+      "review_comments_count": 0,
+      "comments": []
+    },
+    {
+      "number": 890,
+      "title": "Create postScript.py in examples-api",
+      "state": "closed",
+      "user": "LeoGuan0706",
+      "created_at": "2025-02-07T02:18:33Z",
+      "updated_at": "2025-02-13T15:08:15Z",
+      "closed_at": "2025-02-13T15:08:15Z",
+      "merged_at": "2025-02-13T15:08:15Z",
+      "comments_count": 0,
+      "issue_comments_count": 0,
+      "review_comments_count": 0,
+      "comments": []
+    },
+    {
+      "number": 887,
+      "title": "Add local dir parameter",
+      "state": "closed",
+      "user": "BBC-Esq",
+      "created_at": "2025-01-28T16:12:11Z",
+      "updated_at": "2025-04-24T21:33:06Z",
+      "closed_at": "2025-04-24T21:33:06Z",
+      "merged_at": null,
+      "comments_count": 0,
+      "issue_comments_count": 0,
+      "review_comments_count": 0,
+      "comments": []
+    },
+    {
+      "number": 880,
+      "title": "Fix missing module name \"tools.audio\"",
+      "state": "closed",
+      "user": "benknam",
+      "created_at": "2025-01-17T09:32:58Z",
+      "updated_at": "2025-01-20T10:26:58Z",
+      "closed_at": "2025-01-19T12:30:47Z",
+      "merged_at": "2025-01-19T12:30:47Z",
+      "comments_count": 0,
+      "issue_comments_count": 0,
+      "review_comments_count": 0,
+      "comments": []
+    },
+    {
+      "number": 870,
+      "title": "feature: TorchServe example",
+      "state": "closed",
+      "user": "JaysonAlbert",
+      "created_at": "2025-01-08T03:10:25Z",
+      "updated_at": "2025-01-09T00:35:32Z",
+      "closed_at": "2025-01-09T00:35:32Z",
+      "merged_at": null,
+      "comments_count": 1,
+      "issue_comments_count": 1,
+      "review_comments_count": 0,
+      "comments": [
+        {
+          "id": 2578954594,
+          "user": "JaysonAlbert",
+          "body": "> It's quite independent. You can host this repo by yourself and open a PR, in which modify relevant segment of README, linking to your repo.\r\n\r\nThank you for the suggestion! I've created a repo at [ChatTTS-TorchServe](https://github.com/JaysonAlbert/ChatTTS-TorchServe.git), now i'm closing this PR.",
+          "created_at": "2025-01-09T00:35:24Z",
+          "updated_at": "2025-01-09T00:35:24Z",
+          "comment_type": "issue"
+        }
+      ]
+    },
+    {
+      "number": 869,
+      "title": "Update requirements.txt",
+      "state": "closed",
+      "user": "habioye",
+      "created_at": "2025-01-08T03:03:50Z",
+      "updated_at": "2025-02-18T06:19:55Z",
+      "closed_at": "2025-02-18T06:19:55Z",
+      "merged_at": null,
+      "comments_count": 0,
+      "issue_comments_count": 0,
+      "review_comments_count": 0,
+      "comments": []
+    },
+    {
+      "number": 865,
+      "title": "fix: allow empty params_refine_text, and load normalizers to handle chinese numbers",
+      "state": "closed",
+      "user": "JaysonAlbert",
+      "created_at": "2025-01-02T07:46:45Z",
+      "updated_at": "2025-01-07T11:54:07Z",
+      "closed_at": "2025-01-07T11:54:07Z",
+      "merged_at": "2025-01-07T11:54:07Z",
+      "comments_count": 0,
+      "issue_comments_count": 0,
+      "review_comments_count": 0,
+      "comments": []
+    },
+    {
+      "number": 864,
+      "title": "add cache_dir and local_dir parameters",
+      "state": "closed",
+      "user": "BBC-Esq",
+      "created_at": "2024-12-31T03:01:33Z",
+      "updated_at": "2025-01-28T15:14:40Z",
+      "closed_at": "2025-01-28T15:14:39Z",
+      "merged_at": null,
+      "comments_count": 1,
+      "issue_comments_count": 1,
+      "review_comments_count": 0,
+      "comments": [
+        {
+          "id": 2600867383,
+          "user": "BBC-Esq",
+          "body": "Can you resolve this please?  I'm not an expert programmer and this is only a hobby of mine, but this pull request is superior to the one that you accepted.   Thanks.",
+          "created_at": "2025-01-19T13:42:29Z",
+          "updated_at": "2025-01-19T13:42:29Z",
+          "comment_type": "issue"
+        }
+      ]
+    },
+    {
+      "number": 863,
+      "title": "add cache_dir parameter",
+      "state": "closed",
+      "user": "BBC-Esq",
+      "created_at": "2024-12-31T02:15:32Z",
+      "updated_at": "2025-01-28T15:14:35Z",
+      "closed_at": "2025-01-07T11:53:25Z",
+      "merged_at": "2025-01-07T11:53:25Z",
+      "comments_count": 2,
+      "issue_comments_count": 2,
+      "review_comments_count": 0,
+      "comments": [
+        {
+          "id": 2599766811,
+          "user": "BBC-Esq",
+          "body": "Feel free to delete the other pull request, although I do think that one is superior.",
+          "created_at": "2025-01-18T15:53:38Z",
+          "updated_at": "2025-01-18T15:53:38Z",
+          "comment_type": "issue"
+        },
+        {
+          "id": 2600838828,
+          "user": "fumiama",
+          "body": "> Feel free to delete the other pull request, although I do think that one is superior.\r\n\r\nWell, you can edit them to resolve the conflict and I will still review it.",
+          "created_at": "2025-01-19T12:27:23Z",
+          "updated_at": "2025-01-19T12:27:23Z",
+          "comment_type": "issue"
+        }
+      ]
+    },
+    {
+      "number": 816,
+      "title": "python 3.12 fails to install requirements, 3.13 not supported.",
+      "state": "closed",
+      "user": "haydonryan",
+      "created_at": "2024-11-05T02:15:45Z",
+      "updated_at": "2024-11-05T04:56:25Z",
+      "closed_at": "2024-11-05T04:56:24Z",
+      "merged_at": "2024-11-05T04:56:24Z",
+      "comments_count": 2,
+      "issue_comments_count": 2,
+      "review_comments_count": 0,
+      "comments": [
+        {
+          "id": 2456171088,
+          "user": "ain-soph",
+          "body": "I'm using 3.12 for developing fine-tuning branch and find no problem.  \r\nhttps://github.com/ain-soph/ChatTTS/tree/dev\r\n\r\n3.13 is still not supported by many Deep Learning packages. I don't think it shall be supported until upstream packages support it.",
+          "created_at": "2024-11-05T03:47:05Z",
+          "updated_at": "2024-11-05T03:47:05Z",
+          "comment_type": "issue"
+        },
+        {
+          "id": 2456234069,
+          "user": "fumiama",
+          "body": "Maybe there's something wrong with conda. Sticking to 3.11 in doc can be a hint to user.",
+          "created_at": "2024-11-05T04:55:51Z",
+          "updated_at": "2024-11-05T04:55:51Z",
+          "comment_type": "issue"
+        }
+      ]
+    },
+    {
+      "number": 788,
+      "title": "Fix for Ascend NPU when using ChatTTS to sample the voice of a real speaker",
+      "state": "closed",
+      "user": "shen-shanshan",
+      "created_at": "2024-10-16T13:46:54Z",
+      "updated_at": "2024-10-21T06:57:08Z",
+      "closed_at": "2024-10-21T06:57:07Z",
+      "merged_at": "2024-10-21T06:57:07Z",
+      "comments_count": 8,
+      "issue_comments_count": 1,
+      "review_comments_count": 7,
+      "comments": [
+        {
+          "id": 2425457508,
+          "user": "shen-shanshan",
+          "body": "已修改😄， @fumiama ",
+          "created_at": "2024-10-21T02:59:13Z",
+          "updated_at": "2024-10-21T02:59:13Z",
+          "comment_type": "issue"
+        },
+        {
+          "id": 1805133715,
+          "user": "fumiama",
+          "body": "不应在模型内打补丁，这实际是在改变模型的默认行为。应该在传入时就将audio转到cpu。",
+          "created_at": "2024-10-17T17:11:21Z",
+          "updated_at": "2024-10-17T17:11:35Z",
+          "comment_type": "review"
+        },
+        {
+          "id": 1805141055,
+          "user": "fumiama",
+          "body": "DVAE即使全部用CPU也并不会占用很长的处理时间，考虑将整个模型先切换到CPU，待`torchaudio.transforms.MelSpectrogram`适配完成后切回。",
+          "created_at": "2024-10-17T17:17:50Z",
+          "updated_at": "2024-10-17T17:17:50Z",
+          "comment_type": "review"
+        },
+        {
+          "id": 1805948242,
+          "user": "shen-shanshan",
+          "body": "已修改😄， @fumiama ",
+          "created_at": "2024-10-18T06:36:05Z",
+          "updated_at": "2024-10-18T06:36:06Z",
+          "comment_type": "review"
+        },
+        {
+          "id": 1805954119,
+          "user": "shen-shanshan",
+          "body": "另外反馈一个问题，我看 `dev` 分支尝试加载模型失败，显示找不到 `Vocos.safetensors`、`DVAE.safetensors` 等模型文件，我看 HF 上也没有这些文件，导致 CI 报错。",
+          "created_at": "2024-10-18T06:40:53Z",
+          "updated_at": "2024-10-18T06:40:53Z",
+          "comment_type": "review"
+        },
+        {
+          "id": 1805990376,
+          "user": "fumiama",
+          "body": "HF的最新模型还没有合，测试可以下载https://huggingface.co/2Noise/ChatTTS/discussions/33",
+          "created_at": "2024-10-18T07:11:56Z",
+          "updated_at": "2024-10-18T07:11:56Z",
+          "comment_type": "review"
+        },
+        {
+          "id": 1805993392,
+          "user": "fumiama",
+          "body": "最新代码的写法已更改，应当使用最新写法`load_pretrained`。",
+          "created_at": "2024-10-18T07:14:29Z",
+          "updated_at": "2024-10-18T07:15:10Z",
+          "comment_type": "review"
+        },
+        {
+          "id": 1805993884,
+          "user": "fumiama",
+          "body": "这里不必更改。",
+          "created_at": "2024-10-18T07:14:50Z",
+          "updated_at": "2024-10-18T07:15:10Z",
+          "comment_type": "review"
+        }
+      ]
+    },
+    {
+      "number": 783,
+      "title": "修复不能读出\"啊\"和\"呃\"的bug",
+      "state": "closed",
+      "user": "IrisSally",
+      "created_at": "2024-10-12T11:13:29Z",
+      "updated_at": "2024-10-15T15:07:23Z",
+      "closed_at": "2024-10-15T15:07:23Z",
+      "merged_at": "2024-10-15T15:07:22Z",
+      "comments_count": 0,
+      "issue_comments_count": 0,
+      "review_comments_count": 0,
+      "comments": []
+    },
+    {
+      "number": 778,
+      "title": "docs: add README.kr",
+      "state": "closed",
+      "user": "pengooseDev",
+      "created_at": "2024-10-10T13:10:17Z",
+      "updated_at": "2024-10-16T03:25:57Z",
+      "closed_at": "2024-10-16T03:25:57Z",
+      "merged_at": "2024-10-16T03:25:57Z",
+      "comments_count": 2,
+      "issue_comments_count": 1,
+      "review_comments_count": 1,
+      "comments": [
+        {
+          "id": 2415267086,
+          "user": "pengooseDev",
+          "body": "@fumiama The request has been applied! Thx :) ",
+          "created_at": "2024-10-15T22:17:37Z",
+          "updated_at": "2024-10-15T22:17:37Z",
+          "comment_type": "issue"
+        },
+        {
+          "id": 1801361449,
+          "user": "fumiama",
+          "body": "```suggestion\r\n**English** | [**简体中文**](docs/cn/README.md) | [**日本語**](docs/jp/README.md) | [**Русский**](docs/ru/README.md) | [**Español**](docs/es/README.md) | [**Français**](docs/fr/README.md) | [**한국어**](docs/kr/README.md)\r\n```",
+          "created_at": "2024-10-15T15:00:31Z",
+          "updated_at": "2024-10-15T15:00:37Z",
+          "comment_type": "review"
+        }
+      ]
+    },
+    {
+      "number": 777,
+      "title": "Add NPU Support",
+      "state": "closed",
+      "user": "shen-shanshan",
+      "created_at": "2024-10-10T04:05:36Z",
+      "updated_at": "2024-10-10T12:38:13Z",
+      "closed_at": "2024-10-10T12:38:13Z",
+      "merged_at": "2024-10-10T12:38:12Z",
+      "comments_count": 7,
+      "issue_comments_count": 0,
+      "review_comments_count": 7,
+      "comments": [
+        {
+          "id": 1794752594,
+          "user": "MengqingCao",
+          "body": "Please avoid intrusive modifications",
+          "created_at": "2024-10-10T06:32:41Z",
+          "updated_at": "2024-10-10T06:32:41Z",
+          "comment_type": "review"
+        },
+        {
+          "id": 1794815898,
+          "user": "shen-shanshan",
+          "body": "ok, I will modify it soon.",
+          "created_at": "2024-10-10T07:10:12Z",
+          "updated_at": "2024-10-10T07:10:12Z",
+          "comment_type": "review"
+        },
+        {
+          "id": 1795052701,
+          "user": "fumiama",
+          "body": "No need to rename this file. If you rename it, it is hard to see your changes.",
+          "created_at": "2024-10-10T09:26:32Z",
+          "updated_at": "2024-10-10T09:29:34Z",
+          "comment_type": "review"
+        },
+        {
+          "id": 1795056739,
+          "user": "fumiama",
+          "body": "No need to add additional tests because we cannot actually test it on NPU in GitHub action. Just make sure that these codes do not influence on current function.",
+          "created_at": "2024-10-10T09:29:14Z",
+          "updated_at": "2024-10-10T09:29:34Z",
+          "comment_type": "review"
+        },
+        {
+          "id": 1795085728,
+          "user": "fumiama",
+          "body": "Do not put this try into the function definition. Instead, put it at the top of this file, in case of user defining npu manually.",
+          "created_at": "2024-10-10T09:48:59Z",
+          "updated_at": "2024-10-10T09:54:56Z",
+          "comment_type": "review"
+        },
+        {
+          "id": 1795090730,
+          "user": "fumiama",
+          "body": "Do not wrap it into a function because it is designed just for CUDA. Instead, You can modify the main logic to test whether npu exists first, then CUDA, then MPS.",
+          "created_at": "2024-10-10T09:52:34Z",
+          "updated_at": "2024-10-10T09:53:45Z",
+          "comment_type": "review"
+        },
+        {
+          "id": 1795092247,
+          "user": "fumiama",
+          "body": "As for this judgment, you can wrap it as a function. See more detail from the comment below.",
+          "created_at": "2024-10-10T09:53:36Z",
+          "updated_at": "2024-10-10T09:53:45Z",
+          "comment_type": "review"
+        }
+      ]
+    },
+    {
+      "number": 761,
+      "title": "doc: sync latest README",
+      "state": "closed",
+      "user": "Archkon",
+      "created_at": "2024-09-20T09:46:37Z",
+      "updated_at": "2024-09-21T15:19:28Z",
+      "closed_at": "2024-09-21T15:19:28Z",
+      "merged_at": "2024-09-21T15:19:28Z",
+      "comments_count": 0,
+      "issue_comments_count": 0,
+      "review_comments_count": 0,
+      "comments": []
+    },
+    {
+      "number": 759,
+      "title": "Update requirements.txt to include openai",
+      "state": "closed",
+      "user": "maxvonhippel",
+      "created_at": "2024-09-18T17:03:54Z",
+      "updated_at": "2024-10-01T05:37:19Z",
+      "closed_at": "2024-10-01T05:37:19Z",
+      "merged_at": null,
+      "comments_count": 1,
+      "issue_comments_count": 1,
+      "review_comments_count": 0,
+      "comments": [
+        {
+          "id": 2365223925,
+          "user": "fumiama",
+          "body": "Well, it is missed intentionally because this is not a necessary import. Instead of adding this to the requirements.txt, you can add the usage instruction of `llm.py` in README and let user to install this package manually.",
+          "created_at": "2024-09-21T15:18:32Z",
+          "updated_at": "2024-09-21T15:18:32Z",
+          "comment_type": "issue"
+        }
+      ]
+    },
+    {
+      "number": 755,
+      "title": "fix audio for vllm",
+      "state": "closed",
+      "user": "CallmeZhangChenchen",
+      "created_at": "2024-09-14T08:44:15Z",
+      "updated_at": "2024-10-01T05:36:42Z",
+      "closed_at": "2024-10-01T05:36:42Z",
+      "merged_at": null,
+      "comments_count": 1,
+      "issue_comments_count": 0,
+      "review_comments_count": 1,
+      "comments": [
+        {
+          "id": 1760083187,
+          "user": "fumiama",
+          "body": "很坏的解决方案，完全破坏了设置的继承依赖关系。此配置应当从外部传入，而非自己二次引入。",
+          "created_at": "2024-09-15T15:25:50Z",
+          "updated_at": "2024-09-15T15:27:27Z",
+          "comment_type": "review"
+        }
+      ]
+    },
+    {
+      "number": 746,
+      "title": "feat(vLLM): support async generator",
+      "state": "closed",
+      "user": "fengyizhu",
+      "created_at": "2024-09-09T02:09:40Z",
+      "updated_at": "2025-06-12T23:46:50Z",
+      "closed_at": "2025-06-06T04:00:32Z",
+      "merged_at": null,
+      "comments_count": 35,
+      "issue_comments_count": 16,
+      "review_comments_count": 19,
+      "comments": [
+        {
+          "id": 2337067513,
+          "user": "IrisSally",
+          "body": "这一个版本太强大了，我用4090测，流式api第一个chunk 65毫秒，而且音色能固定，太快了，太快了，怀疑电脑坏了",
+          "created_at": "2024-09-09T04:03:37Z",
+          "updated_at": "2024-09-09T04:03:37Z",
+          "comment_type": "issue"
+        },
+        {
+          "id": 2337160372,
+          "user": "ZaymeShaw",
+          "body": "感谢大佬分享。这个版本能和原版本保持相同音色吗，这个issue中有提到 #640",
+          "created_at": "2024-09-09T05:30:33Z",
+          "updated_at": "2024-09-09T05:30:33Z",
+          "comment_type": "issue"
+        },
+        {
+          "id": 2337170895,
+          "user": "fengyizhu",
+          "body": "> 感谢大佬分享。这个版本能和原版本保持相同音色吗，这个issue中有提到 #640\r\n\r\nIt is fully compatible in principle.",
+          "created_at": "2024-09-09T05:40:58Z",
+          "updated_at": "2024-09-09T05:42:38Z",
+          "comment_type": "issue"
+        },
+        {
+          "id": 2337396067,
+          "user": "LLongIsland",
+          "body": "> 这一个版本太强大了，我用4090测，流式api第一个chunk 65毫秒，而且音色能固定，太快了，太快了，怀疑电脑坏了\r\n\r\n4090上使用compile=True耗时3.3s的文本，用main分支vllm加速是1.6s，不能调整音色，用这个pr的版本可以调整，但速度只有2.6s左右",
+          "created_at": "2024-09-09T07:58:05Z",
+          "updated_at": "2024-09-09T07:58:05Z",
+          "comment_type": "issue"
+        },
+        {
+          "id": 2360266085,
+          "user": "niuzheng168",
+          "body": "I am curious that why we choose move vllm codes to this project, instead of supporting the llm parts in vllm.\r\nSupporting the model in vllm will make such feature auto enabled, like streaming generate and continually batch\r\n\r\nalso @fumiama for this question",
+          "created_at": "2024-09-19T08:01:10Z",
+          "updated_at": "2024-09-19T08:02:45Z",
+          "comment_type": "issue"
+        },
+        {
+          "id": 2360306951,
+          "user": "fumiama",
+          "body": "> I am curious that why we choose move vllm codes to this project, instead of supporting the llm parts in vllm.\n> \n> Supporting the model in vllm will make such feature auto enabled, like streaming generate and continually batch\n> \n> \n> \n> also @fumiama for this question\n\nThis part of code is contributed by the community and you can ask @ylzz1997 about that. I'm sorry but I'm not familiar with vLLM 😂.",
+          "created_at": "2024-09-19T08:20:21Z",
+          "updated_at": "2024-09-19T08:20:21Z",
+          "comment_type": "issue"
+        },
+        {
+          "id": 2360414905,
+          "user": "ylzz1997",
+          "body": "> I am curious that why we choose move vllm codes to this project, instead of supporting the llm parts in vllm. Supporting the model in vllm will make such feature auto enabled, like streaming generate and continually batch\r\n> \r\n> also @fumiama for this question\r\n\r\nBecause Vllm don't suport some feature:\r\n1. custom lm-head\r\n2. multi-codebook sampler (custom sampler)\r\n3. sample without tokenizer\r\n\r\nIn order for the sampler to support vllm features such as continuous batch and streaming generate, it is necessary to package the post model (lm_cead and others) into vllm schedular. This requires rewriting the VLLM part of the code.\r\n\r\nThat's all\r\n\r\n\r\n",
+          "created_at": "2024-09-19T08:57:20Z",
+          "updated_at": "2024-09-19T08:57:20Z",
+          "comment_type": "issue"
+        },
+        {
+          "id": 2363015888,
+          "user": "fumiama",
+          "body": "> > I am curious that why we choose move vllm codes to this project, instead of supporting the llm parts in vllm. Supporting the model in vllm will make such feature auto enabled, like streaming generate and continually batch\r\n> > also @fumiama for this question\r\n> \r\n> Because Vllm don't suport some feature:\r\n> \r\n> 1. custom lm-head\r\n> 2. multi-codebook sampler (custom sampler)\r\n> 3. sample without tokenizer\r\n> \r\n> In order for the sampler to support vllm features such as continuous batch and streaming generate, it is necessary to package the post model (lm_cead and others) into vllm schedular. This requires rewriting the VLLM part of the code.\r\n> \r\n> That's all\r\n\r\nThanks for your explanation.",
+          "created_at": "2024-09-20T07:27:13Z",
+          "updated_at": "2024-09-20T07:27:13Z",
+          "comment_type": "issue"
+        },
+        {
+          "id": 2381403788,
+          "user": "niuzheng168",
+          "body": "> > I am curious that why we choose move vllm codes to this project, instead of supporting the llm parts in vllm. Supporting the model in vllm will make such feature auto enabled, like streaming generate and continually batch\r\n> > also @fumiama for this question\r\n> \r\n> Because Vllm don't suport some feature:\r\n> \r\n> 1. custom lm-head\r\n> 2. multi-codebook sampler (custom sampler)\r\n> 3. sample without tokenizer\r\n> \r\n> In order for the sampler to support vllm features such as continuous batch and streaming generate, it is necessary to package the post model (lm_cead and others) into vllm schedular. This requires rewriting the VLLM part of the code.\r\n> \r\n> That's all\r\n\r\nYes, we cannot use vllm directly as it requires some code changes. I have implemented a solution here, I am new to Torch and Python, so feel free for any comments.\r\nOnly for the llama part: \r\nModel: https://github.com/niuzheng168/vllm/blob/dev/vllm/model_executor/models/chattts.py \r\nSample usage: https://github.com/niuzheng168/vllm/blob/dev/chattts_sample.py\r\n\r\nFor the issues you list above:\r\n\r\n- We can create multiple lm_heads.\r\n- I noticed it [runs slowly](https://github.com/vllm-project/vllm/issues/8040#issuecomment-2322767368) when we run the sample N times, so I made a lite version of the multi-head sampler.\r\n- This is already supported in vllm by setting detokenize=false.\r\n\r\nOne of the main challenges is that vllm assumes all the model output is a single token, which is just an int value. However, the TTS system, whether chattts or fishtts, generates multi-head tokens in one decoding step. This means the model output is a token list, breaking the fundamental design. I had to use many if/else statements to ensure the whole pipeline still works.\r\n\r\nOverall, compared to moving vllm codes here, implementing a model in vllm will save effort for other features than core model inference, like sampling and scheduling, continual batch processing, etc.\r\nI also reply the road map of [vllm thread](https://github.com/vllm-project/vllm/issues/5805#issuecomment-2334044900), to see if push vllm support the model official, I believe more and more multi-modal models is using similar model arch, especially for those gpt-4o like models.",
+          "created_at": "2024-09-29T15:44:16Z",
+          "updated_at": "2024-09-29T15:44:16Z",
+          "comment_type": "issue"
+        },
+        {
+          "id": 2384839344,
+          "user": "fumiama",
+          "body": "> > > I am curious that why we choose move vllm codes to this project, instead of supporting the llm parts in vllm. Supporting the model in vllm will make such feature auto enabled, like streaming generate and continually batch\r\n> > > also @fumiama for this question\r\n> > \r\n> > \r\n> > Because Vllm don't suport some feature:\r\n> > \r\n> > 1. custom lm-head\r\n> > 2. multi-codebook sampler (custom sampler)\r\n> > 3. sample without tokenizer\r\n> > \r\n> > In order for the sampler to support vllm features such as continuous batch and streaming generate, it is necessary to package the post model (lm_cead and others) into vllm schedular. This requires rewriting the VLLM part of the code.\r\n> > That's all\r\n> \r\n> Yes, we cannot use vllm directly as it requires some code changes. I have implemented a solution here, I am new to Torch and Python, so feel free for any comments. Only for the llama part: Model: https://github.com/niuzheng168/vllm/blob/dev/vllm/model_executor/models/chattts.py Sample usage: https://github.com/niuzheng168/vllm/blob/dev/chattts_sample.py\r\n> \r\n> For the issues you list above:\r\n> \r\n> * We can create multiple lm_heads.\r\n> * I noticed it [runs slowly](https://github.com/vllm-project/vllm/issues/8040#issuecomment-2322767368) when we run the sample N times, so I made a lite version of the multi-head sampler.\r\n> * This is already supported in vllm by setting detokenize=false.\r\n> \r\n> One of the main challenges is that vllm assumes all the model output is a single token, which is just an int value. However, the TTS system, whether chattts or fishtts, generates multi-head tokens in one decoding step. This means the model output is a token list, breaking the fundamental design. I had to use many if/else statements to ensure the whole pipeline still works.\r\n> \r\n> Overall, compared to moving vllm codes here, implementing a model in vllm will save effort for other features than core model inference, like sampling and scheduling, continual batch processing, etc. I also reply the road map of [vllm thread](https://github.com/vllm-project/vllm/issues/5805#issuecomment-2334044900), to see if push vllm support the model official, I believe more and more multi-modal models is using similar model arch, especially for those gpt-4o like models.\r\n\r\nThanks for your great effort. We welcome you to contribute your code into this repo if you like.",
+          "created_at": "2024-10-01T05:34:34Z",
+          "updated_at": "2024-10-01T05:34:34Z",
+          "comment_type": "issue"
+        },
+        {
+          "id": 2556847191,
+          "user": "xiaohua-drive",
+          "body": "> > 这一个版本太强大了，我用4090测，流式api第一个chunk 65毫秒，而且音色能固定，太快了，太快了，怀疑电脑坏了\r\n> \r\n> 4090上使用compile=True耗时3.3s的文本，用main分支vllm加速是1.6s，不能调整音色，用这个pr的版本可以调整，但速度只有2.6s左右\r\n\r\n流式api第一个chunk 65毫秒，请问大佬能不能有偿教一下怎么把第一个合成的chunk马上播放出来",
+          "created_at": "2024-12-20T11:48:45Z",
+          "updated_at": "2024-12-20T11:48:45Z",
+          "comment_type": "issue"
+        },
+        {
+          "id": 2556851642,
+          "user": "xiaohua-drive",
+          "body": "> 这个版本太强大了，我用4090测，流式api第一个块65毫秒，而且音色能力固定，太快了，太快了，怀疑电脑坏了\r\n\r\n流式api第一个块65毫秒，请问大佬能不能好好教一下怎么把第一个合成的块马上出来播放",
+          "created_at": "2024-12-20T11:51:37Z",
+          "updated_at": "2024-12-20T11:51:37Z",
+          "comment_type": "issue"
+        },
+        {
+          "id": 2742708716,
+          "user": "ai408",
+          "body": "使用vLLM加速后，貌似不能流式输出了。",
+          "created_at": "2025-03-21T08:49:49Z",
+          "updated_at": "2025-03-21T08:49:49Z",
+          "comment_type": "issue"
+        },
+        {
+          "id": 2754171809,
+          "user": "CJY1018",
+          "body": "@fengyizhu @fumiama \r\n请问使用 vLLM 后，还能进行批量推理吗？\r\n就是 chat.infer(texts, split_text=False）中当传入 texts 为列表时，推理出的音频为 0s\r\n\r\n还想问问大佬们 vLLM 只能使用单音色的问题现在解决了吗？",
+          "created_at": "2025-03-26T12:02:16Z",
+          "updated_at": "2025-03-26T12:02:16Z",
+          "comment_type": "issue"
+        },
+        {
+          "id": 2817475527,
+          "user": "fengyizhu",
+          "body": "> @fengyizhu @fumiama 请问使用 vLLM 后，还能进行批量推理吗？ 就是 chat.infer(texts, split_text=False）中当传入 texts 为列表时，推理出的音频为 0s\r\n> \r\n> 还想问问大佬们 vLLM 只能使用单音色的问题现在解决了吗？\r\n\r\nyes",
+          "created_at": "2025-04-21T01:54:23Z",
+          "updated_at": "2025-04-21T01:54:23Z",
+          "comment_type": "issue"
+        },
+        {
+          "id": 2968458751,
+          "user": "fengyizhu",
+          "body": "> @fengyizhu @fumiama 请问使用 vLLM 后，还能进行批量推理吗？ 就是 chat.infer(texts, split_text=False）中当传入 texts 为列表时，推理出的音频为 0s\r\n> \r\n> 还想问问大佬们 vLLM 只能使用单音色的问题现在解决了吗？\r\n\r\nhttps://github.com/fengyizhu/ChatTTS-VLLM  修复版",
+          "created_at": "2025-06-12T23:46:50Z",
+          "updated_at": "2025-06-12T23:46:50Z",
+          "comment_type": "issue"
+        },
+        {
+          "id": 1749502066,
+          "user": "fumiama",
+          "body": "Why move this down?",
+          "created_at": "2024-09-09T03:13:37Z",
+          "updated_at": "2024-09-09T03:20:05Z",
+          "comment_type": "review"
+        },
+        {
+          "id": 1749502770,
+          "user": "fumiama",
+          "body": "No, don't remain this code. It has been moved to embed.py.",
+          "created_at": "2024-09-09T03:15:11Z",
+          "updated_at": "2024-09-09T03:20:05Z",
+          "comment_type": "review"
+        },
+        {
+          "id": 1749504337,
+          "user": "fumiama",
+          "body": "Please DO NOT remove the non-vLLM part. The vLLM is always an alternative speed up option since it cannot be used in EVERY devices.",
+          "created_at": "2024-09-09T03:18:20Z",
+          "updated_at": "2024-09-09T03:20:05Z",
+          "comment_type": "review"
+        },
+        {
+          "id": 1749506259,
+          "user": "fumiama",
+          "body": "DONOT change the default behavior.",
+          "created_at": "2024-09-09T03:22:11Z",
+          "updated_at": "2024-09-09T03:26:37Z",
+          "comment_type": "review"
+        },
+        {
+          "id": 1749506282,
+          "user": "fumiama",
+          "body": "DONOT change the default behavior.",
+          "created_at": "2024-09-09T03:22:14Z",
+          "updated_at": "2024-09-09T03:26:37Z",
+          "comment_type": "review"
+        },
+        {
+          "id": 1749506302,
+          "user": "fumiama",
+          "body": "DONOT change the default behavior.",
+          "created_at": "2024-09-09T03:22:18Z",
+          "updated_at": "2024-09-09T03:26:37Z",
+          "comment_type": "review"
+        },
+        {
+          "id": 1749506343,
+          "user": "fumiama",
+          "body": "DONOT change the default behavior.",
+          "created_at": "2024-09-09T03:22:22Z",
+          "updated_at": "2024-09-09T03:26:37Z",
+          "comment_type": "review"
+        },
+        {
+          "id": 1749506432,
+          "user": "fumiama",
+          "body": "DONOT change the default behavior.",
+          "created_at": "2024-09-09T03:22:32Z",
+          "updated_at": "2024-09-09T03:26:37Z",
+          "comment_type": "review"
+        },
+        {
+          "id": 1749506477,
+          "user": "fumiama",
+          "body": "DONOT change the default behavior.",
+          "created_at": "2024-09-09T03:22:37Z",
+          "updated_at": "2024-09-09T03:26:37Z",
+          "comment_type": "review"
+        },
+        {
+          "id": 1749506510,
+          "user": "fumiama",
+          "body": "DONOT change the default behavior.",
+          "created_at": "2024-09-09T03:22:41Z",
+          "updated_at": "2024-09-09T03:26:37Z",
+          "comment_type": "review"
+        },
+        {
+          "id": 1749553834,
+          "user": "fengyizhu",
+          "body": "ok",
+          "created_at": "2024-09-09T04:48:23Z",
+          "updated_at": "2024-09-09T04:48:23Z",
+          "comment_type": "review"
+        },
+        {
+          "id": 1749553983,
+          "user": "fengyizhu",
+          "body": "ok",
+          "created_at": "2024-09-09T04:48:38Z",
+          "updated_at": "2024-09-09T04:48:38Z",
+          "comment_type": "review"
+        },
+        {
+          "id": 1755110910,
+          "user": "fumiama",
+          "body": "No need to change it.",
+          "created_at": "2024-09-11T16:13:11Z",
+          "updated_at": "2024-09-11T16:29:29Z",
+          "comment_type": "review"
+        },
+        {
+          "id": 1755111247,
+          "user": "fumiama",
+          "body": "No need to change it.",
+          "created_at": "2024-09-11T16:13:18Z",
+          "updated_at": "2024-09-11T16:29:29Z",
+          "comment_type": "review"
+        },
+        {
+          "id": 1755111425,
+          "user": "fumiama",
+          "body": "No need to change it.",
+          "created_at": "2024-09-11T16:13:21Z",
+          "updated_at": "2024-09-11T16:29:29Z",
+          "comment_type": "review"
+        },
+        {
+          "id": 1755126095,
+          "user": "fumiama",
+          "body": "We don't want to introduce `librosa`. Modifying the original code makes sense. ex. replace\r\n```py\r\nkeep_cols = np.sum(new_wavs != 0, axis=0) > 0\r\n```\r\nwith\r\n```py\r\n# pseudo code without testing, just a hint\r\nkeep_cols = np.sum(abs(new_wavs) > 1e-6, axis=0) > 0\r\n```",
+          "created_at": "2024-09-11T16:20:03Z",
+          "updated_at": "2024-09-11T16:29:29Z",
+          "comment_type": "review"
+        },
+        {
+          "id": 1755129550,
+          "user": "fumiama",
+          "body": "It's not so good to call into the inner method and you should modify the outer one `gpt.llm.generate`.",
+          "created_at": "2024-09-11T16:22:55Z",
+          "updated_at": "2024-09-11T16:29:29Z",
+          "comment_type": "review"
+        },
+        {
+          "id": 1755132327,
+          "user": "fumiama",
+          "body": "If you move a line up, don't change the variable name when it's ok to remain the original one. It will make it difficult to see your changes.",
+          "created_at": "2024-09-11T16:25:04Z",
+          "updated_at": "2024-09-11T16:29:29Z",
+          "comment_type": "review"
+        },
+        {
+          "id": 1755133387,
+          "user": "fumiama",
+          "body": "Same.",
+          "created_at": "2024-09-11T16:25:54Z",
+          "updated_at": "2024-09-11T16:29:29Z",
+          "comment_type": "review"
+        }
+      ]
+    },
+    {
+      "number": 738,
+      "title": "fix idx error when do repetition penalty",
+      "state": "closed",
+      "user": "niuzheng168",
+      "created_at": "2024-08-31T11:53:36Z",
+      "updated_at": "2024-08-31T15:05:55Z",
+      "closed_at": "2024-08-31T15:05:54Z",
+      "merged_at": "2024-08-31T15:05:54Z",
+      "comments_count": 0,
+      "issue_comments_count": 0,
+      "review_comments_count": 0,
+      "comments": []
+    },
+    {
+      "number": 737,
+      "title": "Fix device mismatch error in embedding loading on branch dev",
+      "state": "closed",
+      "user": "IrisSally",
+      "created_at": "2024-08-31T08:30:51Z",
+      "updated_at": "2024-08-31T15:04:23Z",
+      "closed_at": "2024-08-31T15:04:22Z",
+      "merged_at": "2024-08-31T15:04:22Z",
+      "comments_count": 0,
+      "issue_comments_count": 0,
+      "review_comments_count": 0,
+      "comments": []
+    },
+    {
+      "number": 733,
+      "title": "Update dvae.py and change param gamma to weight ",
+      "state": "closed",
+      "user": "zly-idleness",
+      "created_at": "2024-08-29T10:48:38Z",
+      "updated_at": "2024-10-15T15:56:19Z",
+      "closed_at": "2024-10-15T15:56:18Z",
+      "merged_at": "2024-10-15T15:56:18Z",
+      "comments_count": 0,
+      "issue_comments_count": 0,
+      "review_comments_count": 0,
+      "comments": []
+    },
+    {
+      "number": 682,
+      "title": "add experimental argument",
+      "state": "closed",
+      "user": "ain-soph",
+      "created_at": "2024-08-11T15:37:47Z",
+      "updated_at": "2024-08-14T13:40:15Z",
+      "closed_at": "2024-08-14T11:03:14Z",
+      "merged_at": "2024-08-14T11:03:14Z",
+      "comments_count": 0,
+      "issue_comments_count": 0,
+      "review_comments_count": 0,
+      "comments": []
+    },
+    {
+      "number": 681,
+      "title": "fix invalid_characters bug",
+      "state": "closed",
+      "user": "ain-soph",
+      "created_at": "2024-08-11T07:45:12Z",
+      "updated_at": "2024-08-11T08:25:35Z",
+      "closed_at": "2024-08-11T08:05:33Z",
+      "merged_at": null,
+      "comments_count": 3,
+      "issue_comments_count": 3,
+      "review_comments_count": 0,
+      "comments": [
+        {
+          "id": 2282661787,
+          "user": "ain-soph",
+          "body": "This PR fails `#655` unittest, which requires a further check.",
+          "created_at": "2024-08-11T07:54:58Z",
+          "updated_at": "2024-08-11T07:56:12Z",
+          "comment_type": "issue"
+        },
+        {
+          "id": 2282663388,
+          "user": "ain-soph",
+          "body": "The first change in `character_simplier` seems not to be the expected behavior according to `#655` test file, as it requires the refined text still has `?` inside.\r\n\r\nI wonder since this `?` is invalid_character, which means it's not seen in training data. Shall we still keep that `?` in inference stage?",
+          "created_at": "2024-08-11T08:01:04Z",
+          "updated_at": "2024-08-11T08:01:04Z",
+          "comment_type": "issue"
+        },
+        {
+          "id": 2282664900,
+          "user": "ain-soph",
+          "body": "After check, it seems both concerns are not expected behaviors. Close this issue.",
+          "created_at": "2024-08-11T08:05:33Z",
+          "updated_at": "2024-08-11T08:05:33Z",
+          "comment_type": "issue"
+        }
+      ]
+    },
+    {
+      "number": 679,
+      "title": "Add finetuning support for `Speaker` class",
+      "state": "closed",
+      "user": "ain-soph",
+      "created_at": "2024-08-10T18:29:56Z",
+      "updated_at": "2024-08-14T13:39:57Z",
+      "closed_at": "2024-08-14T11:02:14Z",
+      "merged_at": "2024-08-14T11:02:14Z",
+      "comments_count": 11,
+      "issue_comments_count": 3,
+      "review_comments_count": 8,
+      "comments": [
+        {
+          "id": 2282646761,
+          "user": "fumiama",
+          "body": "Also, you can save the str to a txt file (with the ext .pt if you like) and use it just like a .pt file if you like.",
+          "created_at": "2024-08-11T06:51:01Z",
+          "updated_at": "2024-08-11T06:51:01Z",
+          "comment_type": "issue"
+        },
+        {
+          "id": 2282647374,
+          "user": "ain-soph",
+          "body": "> Also, you can save the str to a txt file (with the ext .pt if you like) and use it just like a .pt file if you like.\r\n\r\n\"use it just like a .pt file if you like\" -> You mean we could directly read the tensor via `torch.load()` instead of using `pybase16384` to encode/decode? I didn't know that.",
+          "created_at": "2024-08-11T06:54:03Z",
+          "updated_at": "2024-08-11T06:54:32Z",
+          "comment_type": "issue"
+        },
+        {
+          "id": 2282647645,
+          "user": "fumiama",
+          "body": "> > Also, you can save the str to a txt file (with the ext .pt if you like) and use it just like a .pt file if you like.\n> \n> \n> \n> \"use it just like a .pt file if you like\" -> You mean we could directly read the tensor via `torch.load()` instead of using `pybase16384` to encode/decode? I didn't know that.\n\nJust treat the str as a kind of binary.",
+          "created_at": "2024-08-11T06:55:14Z",
+          "updated_at": "2024-08-11T06:55:14Z",
+          "comment_type": "issue"
+        },
+        {
+          "id": 1712918429,
+          "user": "fumiama",
+          "body": "I agree with your changes but as for this name, it'd be better to leave it unchanged.",
+          "created_at": "2024-08-11T06:33:53Z",
+          "updated_at": "2024-08-11T06:36:52Z",
+          "comment_type": "review"
+        },
+        {
+          "id": 1712919209,
+          "user": "ain-soph",
+          "body": "According to [PEP 8](https://peps.python.org/pep-0008/#method-names-and-instance-variables), \r\n> Use one leading underscore only for non-public methods and instance variables.\r\n\r\nIn finetuning case (I change the return type and no-inplace operation for this reason), we need to call this method out of class. Therefore, it's better not to start with a leading underscore if this method is expected to be exposed.",
+          "created_at": "2024-08-11T06:40:29Z",
+          "updated_at": "2024-08-11T06:46:25Z",
+          "comment_type": "review"
+        },
+        {
+          "id": 1712920325,
+          "user": "fumiama",
+          "body": "I know your meaning but we want to mark this method as unrecommended. Peopole should always use the str version except for some special reasons.",
+          "created_at": "2024-08-11T06:48:14Z",
+          "updated_at": "2024-08-11T06:48:14Z",
+          "comment_type": "review"
+        },
+        {
+          "id": 1712920838,
+          "user": "ain-soph",
+          "body": "Yes, that makes sense if there is no plan to add fine-tuning script.\r\nI'm currently working on my [fine-tuning branch](https://github.com/ain-soph/ChatTTS/tree/dev) and it seems to be working to some extent. Will the main repo maintainer consider a PR for supporting fine-tuning?",
+          "created_at": "2024-08-11T06:51:47Z",
+          "updated_at": "2024-08-11T06:51:47Z",
+          "comment_type": "review"
+        },
+        {
+          "id": 1712921884,
+          "user": "fumiama",
+          "body": "It sounds great, we will be happy to accept your contribution. As for the fine-tuning, since we will put the codes in the Chat class, it can contain such a internal api directly.",
+          "created_at": "2024-08-11T06:58:34Z",
+          "updated_at": "2024-08-11T06:58:53Z",
+          "comment_type": "review"
+        },
+        {
+          "id": 1712922203,
+          "user": "ain-soph",
+          "body": "> It sounds great, we will be happy to accept your contribution. As for the fine-tuning, since we will put the codes in the Chat class, it can contain such an internal api directly.\r\n\r\nThat's where I feel confused. If you want to call `Speaker._sample_random()` method in `Chat` class, then it's an out-of-class call and it means this method is public (i.e., it's still internal w.r.t. this package, but public in terms of the class). If that's the case, it's better to not start with leading underscore if we want to obey the PEP 8 naming standard.\r\n\r\nOr do you mean you plan to re-implement such method in `Chat` class instead of calling `Speaker._sample_random()`? That doesn't sound like a good idea to make duplicates.",
+          "created_at": "2024-08-11T07:00:56Z",
+          "updated_at": "2024-08-11T07:03:15Z",
+          "comment_type": "review"
+        },
+        {
+          "id": 1712922873,
+          "user": "ain-soph",
+          "body": "I see cases for cross-file import for non-class methods with leading underscore ([example](https://github.com/pytorch/vision/blob/f5d9ecd5024d1c4f21a5620cf2cca6d07eabd469/torchvision/prototype/datasets/utils/_resource.py#L21)), but I don't know if it's still the case for out-of-class usage for class methods with leading underscore.\r\n\r\nI think we may cc other maintainers for their ideas if there is a disagreement. But anyway, if you make the final decision, I'll make corresponding modification. It's just a small naming concern after all and many packages violate the PEP 8 standard.",
+          "created_at": "2024-08-11T07:05:30Z",
+          "updated_at": "2024-08-11T07:11:09Z",
+          "comment_type": "review"
+        },
+        {
+          "id": 1712954803,
+          "user": "fumiama",
+          "body": "Well, in this case, as our main purpose is to prevent users from using this method and the Speaker class is a single instance in Chat, we can regard it as a kind of `static` or `non-class`.",
+          "created_at": "2024-08-11T10:14:30Z",
+          "updated_at": "2024-08-11T10:14:30Z",
+          "comment_type": "review"
+        }
+      ]
+    },
+    {
+      "number": 669,
+      "title": "feat: add [--source ***] [--custom_path XXX] for run cmd",
+      "state": "closed",
+      "user": "weedge",
+      "created_at": "2024-08-06T07:27:42Z",
+      "updated_at": "2024-08-07T16:43:00Z",
+      "closed_at": "2024-08-07T16:43:00Z",
+      "merged_at": "2024-08-07T16:43:00Z",
+      "comments_count": 6,
+      "issue_comments_count": 1,
+      "review_comments_count": 5,
+      "comments": [
+        {
+          "id": 2270989481,
+          "user": "weedge",
+          "body": "@fumiama done",
+          "created_at": "2024-08-06T10:53:15Z",
+          "updated_at": "2024-08-06T10:53:15Z",
+          "comment_type": "issue"
+        },
+        {
+          "id": 1705272745,
+          "user": "fumiama",
+          "body": "Using a model-type running seems meaningless because user should still edit this file and change the texts.",
+          "created_at": "2024-08-06T10:06:48Z",
+          "updated_at": "2024-08-06T10:10:25Z",
+          "comment_type": "review"
+        },
+        {
+          "id": 1705274452,
+          "user": "fumiama",
+          "body": "Well, you can put this function into original `run.py`.",
+          "created_at": "2024-08-06T10:08:15Z",
+          "updated_at": "2024-08-06T10:10:25Z",
+          "comment_type": "review"
+        },
+        {
+          "id": 1705274923,
+          "user": "fumiama",
+          "body": "Then, no need to modify this file.",
+          "created_at": "2024-08-06T10:08:39Z",
+          "updated_at": "2024-08-06T10:10:25Z",
+          "comment_type": "review"
+        },
+        {
+          "id": 1705791904,
+          "user": "fumiama",
+          "body": "Why need this function? It's not used at anywhere.",
+          "created_at": "2024-08-06T16:04:51Z",
+          "updated_at": "2024-08-06T16:06:33Z",
+          "comment_type": "review"
+        },
+        {
+          "id": 1705804770,
+          "user": "weedge",
+          "body": "@fumiama yep~, done,  remove, some example code don't commit",
+          "created_at": "2024-08-06T16:14:48Z",
+          "updated_at": "2024-08-06T16:14:49Z",
+          "comment_type": "review"
+        }
+      ]
+    },
+    {
+      "number": 663,
+      "title": "fix a bug of transformer-engine",
+      "state": "closed",
+      "user": "ain-soph",
+      "created_at": "2024-08-05T05:33:35Z",
+      "updated_at": "2024-08-11T07:40:32Z",
+      "closed_at": "2024-08-05T05:44:41Z",
+      "merged_at": null,
+      "comments_count": 1,
+      "issue_comments_count": 1,
+      "review_comments_count": 0,
+      "comments": [
+        {
+          "id": 2268218081,
+          "user": "ain-soph",
+          "body": "Close because it's already fixed in `dev` branch. Didn't realize the existence of that branch.",
+          "created_at": "2024-08-05T05:44:41Z",
+          "updated_at": "2024-08-05T05:44:41Z",
+          "comment_type": "issue"
+        }
+      ]
+    },
+    {
+      "number": 656,
+      "title": "fix: gpu change to cpu overhead",
+      "state": "closed",
+      "user": "wenyangchou",
+      "created_at": "2024-08-01T12:15:08Z",
+      "updated_at": "2024-08-01T16:42:28Z",
+      "closed_at": "2024-08-01T16:42:28Z",
+      "merged_at": "2024-08-01T16:42:28Z",
+      "comments_count": 0,
+      "issue_comments_count": 0,
+      "review_comments_count": 0,
+      "comments": []
+    },
+    {
+      "number": 642,
+      "title": "fix: topK and topP not valid",
+      "state": "closed",
+      "user": "wenyangchou",
+      "created_at": "2024-07-29T09:11:59Z",
+      "updated_at": "2024-08-03T08:42:50Z",
+      "closed_at": "2024-07-29T17:08:02Z",
+      "merged_at": "2024-07-29T17:08:02Z",
+      "comments_count": 4,
+      "issue_comments_count": 4,
+      "review_comments_count": 0,
+      "comments": [
+        {
+          "id": 2255411408,
+          "user": "wenyangchou",
+          "body": "When I deleted the code , there is a significant decrease in the number of bad cases .",
+          "created_at": "2024-07-29T09:13:36Z",
+          "updated_at": "2024-07-29T09:13:36Z",
+          "comment_type": "issue"
+        },
+        {
+          "id": 2256442755,
+          "user": "fumiama",
+          "body": "ref #543",
+          "created_at": "2024-07-29T16:58:48Z",
+          "updated_at": "2024-07-29T16:58:48Z",
+          "comment_type": "issue"
+        },
+        {
+          "id": 2266625890,
+          "user": "AdamMayor2018",
+          "body": "这个解决不了出现unexpected end at index [0]和显存爆炸问题。\r\n",
+          "created_at": "2024-08-03T07:45:20Z",
+          "updated_at": "2024-08-03T07:45:20Z",
+          "comment_type": "issue"
+        },
+        {
+          "id": 2266641394,
+          "user": "fumiama",
+          "body": "> 这个解决不了出现unexpected end at index [0]和显存爆炸问题。\r\n\r\nunexpected end at index [0] 本身就和输入的内容和各项参数有关，但是这个错误大大加重了此问题。",
+          "created_at": "2024-08-03T08:42:49Z",
+          "updated_at": "2024-08-03T08:42:49Z",
+          "comment_type": "issue"
+        }
+      ]
+    },
+    {
+      "number": 639,
+      "title": "Fix vLLM wrapper bug: noise at the beginning of the speech",
+      "state": "closed",
+      "user": "ylzz1997",
+      "created_at": "2024-07-27T09:36:26Z",
+      "updated_at": "2024-07-27T10:01:19Z",
+      "closed_at": "2024-07-27T10:01:19Z",
+      "merged_at": "2024-07-27T10:01:19Z",
+      "comments_count": 0,
+      "issue_comments_count": 0,
+      "review_comments_count": 0,
+      "comments": []
+    },
+    {
+      "number": 638,
+      "title": "降低zero-shot功能对torch版本的要求",
+      "state": "closed",
+      "user": "ZaymeShaw",
+      "created_at": "2024-07-27T05:25:24Z",
+      "updated_at": "2024-07-28T15:52:39Z",
+      "closed_at": "2024-07-28T15:52:39Z",
+      "merged_at": "2024-07-28T15:52:39Z",
+      "comments_count": 6,
+      "issue_comments_count": 0,
+      "review_comments_count": 6,
+      "comments": [
+        {
+          "id": 1693930611,
+          "user": "fumiama",
+          "body": "这个好像没必要加to device",
+          "created_at": "2024-07-27T09:43:31Z",
+          "updated_at": "2024-07-27T09:51:53Z",
+          "comment_type": "review"
+        },
+        {
+          "id": 1693930631,
+          "user": "fumiama",
+          "body": "可以用.cpu()",
+          "created_at": "2024-07-27T09:43:48Z",
+          "updated_at": "2024-07-27T09:51:53Z",
+          "comment_type": "review"
+        },
+        {
+          "id": 1694052165,
+          "user": "ZaymeShaw",
+          "body": "```\r\n--> 167 torch.where(cond, n, emb, out=emb)\r\n    168 del cond, n\r\n\r\nRuntimeError: Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu!\r\n```\r\n这个是为了处理我遇到的另一个报错。我修正了之后不会再报。\r\n我看了设备信息是这样的：cond: cuda:0 n: cpu emb: cpu。原代码里面n和emb都在device_gpt上，所以把cond也调整到device_gpt应该是需要的\r\n",
+          "created_at": "2024-07-28T03:26:34Z",
+          "updated_at": "2024-07-28T03:26:34Z",
+          "comment_type": "review"
+        },
+        {
+          "id": 1694165191,
+          "user": "fumiama",
+          "body": "ok，理论上device_gpt和device在cuda上应该是相同的，不应该出现cpu才对😂",
+          "created_at": "2024-07-28T08:07:52Z",
+          "updated_at": "2024-07-28T08:07:52Z",
+          "comment_type": "review"
+        },
+        {
+          "id": 1694169974,
+          "user": "fumiama",
+          "body": "我发现了，你真正应该改的地方是\n\nhttps://github.com/2noise/ChatTTS/blob/06b823be8b80ddd66fb1d42fd2a0fc6bf19c0203/ChatTTS/core.py#L299\n\n下面插入device_gpt参数，把device统一为cuda，这样就不用改这一处了。",
+          "created_at": "2024-07-28T08:16:59Z",
+          "updated_at": "2024-07-28T08:17:15Z",
+          "comment_type": "review"
+        },
+        {
+          "id": 1694228384,
+          "user": "ZaymeShaw",
+          "body": "ok。这个修改确实是最正确的",
+          "created_at": "2024-07-28T11:41:33Z",
+          "updated_at": "2024-07-28T11:41:33Z",
+          "comment_type": "review"
+        }
+      ]
+    },
+    {
+      "number": 628,
+      "title": "chore: optimize tensor padding in model_runner.py",
+      "state": "closed",
+      "user": "ylzz1997",
+      "created_at": "2024-07-24T19:12:29Z",
+      "updated_at": "2024-07-24T19:15:16Z",
+      "closed_at": "2024-07-24T19:15:15Z",
+      "merged_at": "2024-07-24T19:15:15Z",
+      "comments_count": 0,
+      "issue_comments_count": 0,
+      "review_comments_count": 0,
+      "comments": []
+    },
+    {
+      "number": 622,
+      "title": "Add scripts to support onnx export",
+      "state": "closed",
+      "user": "ZillaRU",
+      "created_at": "2024-07-23T10:01:11Z",
+      "updated_at": "2024-07-29T16:55:53Z",
+      "closed_at": "2024-07-29T16:55:53Z",
+      "merged_at": "2024-07-29T16:55:53Z",
+      "comments_count": 6,
+      "issue_comments_count": 3,
+      "review_comments_count": 3,
+      "comments": [
+        {
+          "id": 2254563997,
+          "user": "fumiama",
+          "body": "我又想了一下，还是放`examples`比较好，`examples/onnx`",
+          "created_at": "2024-07-28T15:54:21Z",
+          "updated_at": "2024-07-28T15:54:21Z",
+          "comment_type": "issue"
+        },
+        {
+          "id": 2255842882,
+          "user": "ZillaRU",
+          "body": "😂卡在了自动检查，setuptools出错",
+          "created_at": "2024-07-29T12:48:04Z",
+          "updated_at": "2024-07-29T12:48:04Z",
+          "comment_type": "issue"
+        },
+        {
+          "id": 2256435662,
+          "user": "fumiama",
+          "body": "OK了，他有的时候抽风，需要重新运行一下。",
+          "created_at": "2024-07-29T16:55:27Z",
+          "updated_at": "2024-07-29T16:55:27Z",
+          "comment_type": "issue"
+        },
+        {
+          "id": 1688256114,
+          "user": "fumiama",
+          "body": "为什么需要侵入式修改？如无法避免，建议自建仓库，然后由 @libukai 收录到 [Awesome-ChatTTS](https://github.com/libukai/Awesome-ChatTTS)",
+          "created_at": "2024-07-23T15:18:33Z",
+          "updated_at": "2024-07-23T15:19:56Z",
+          "comment_type": "review"
+        },
+        {
+          "id": 1689048879,
+          "user": "ZillaRU",
+          "body": "ok 我参考下tools。直接加一个用于转换的gpt.py实现在tools下面，这样可以接受吗？",
+          "created_at": "2024-07-24T03:10:12Z",
+          "updated_at": "2024-07-24T03:10:13Z",
+          "comment_type": "review"
+        },
+        {
+          "id": 1689273490,
+          "user": "fumiama",
+          "body": "只要你不动用户已经安装的库，怎么样搞无所谓。侵入式修改库是很危险的行为，不是官方库应当提倡的。",
+          "created_at": "2024-07-24T07:22:29Z",
+          "updated_at": "2024-07-24T07:22:29Z",
+          "comment_type": "review"
+        }
+      ]
+    },
+    {
+      "number": 615,
+      "title": "feat: add vLLM support",
+      "state": "closed",
+      "user": "fumiama",
+      "created_at": "2024-07-21T14:38:49Z",
+      "updated_at": "2024-07-24T17:17:12Z",
+      "closed_at": "2024-07-24T17:17:12Z",
+      "merged_at": null,
+      "comments_count": 0,
+      "issue_comments_count": 0,
+      "review_comments_count": 0,
+      "comments": []
+    },
+    {
+      "number": 612,
+      "title": "Add vLLM Wrapper",
+      "state": "closed",
+      "user": "ylzz1997",
+      "created_at": "2024-07-21T03:56:23Z",
+      "updated_at": "2024-07-21T14:18:47Z",
+      "closed_at": "2024-07-21T14:18:47Z",
+      "merged_at": "2024-07-21T14:18:47Z",
+      "comments_count": 0,
+      "issue_comments_count": 0,
+      "review_comments_count": 0,
+      "comments": []
+    },
+    {
+      "number": 607,
+      "title": "fix(gpt): stream mode dim mismatch (fix #606)",
+      "state": "closed",
+      "user": "fumiama",
+      "created_at": "2024-07-20T06:20:58Z",
+      "updated_at": "2024-08-08T05:16:45Z",
+      "closed_at": "2024-07-20T06:28:28Z",
+      "merged_at": "2024-07-20T06:28:28Z",
+      "comments_count": 0,
+      "issue_comments_count": 0,
+      "review_comments_count": 0,
+      "comments": []
+    },
+    {
+      "number": 564,
+      "title": "fix stream mode, last chunk of audio file size",
+      "state": "closed",
+      "user": "Ox0400",
+      "created_at": "2024-07-12T07:38:51Z",
+      "updated_at": "2024-07-16T12:20:06Z",
+      "closed_at": "2024-07-16T12:20:06Z",
+      "merged_at": "2024-07-16T12:20:06Z",
+      "comments_count": 10,
+      "issue_comments_count": 7,
+      "review_comments_count": 3,
+      "comments": [
+        {
+          "id": 2225022218,
+          "user": "fumiama",
+          "body": "要注意从后往前删除连续的0，以避免真正的编码中确实有0的可能性（虽然小，但不是没有）。",
+          "created_at": "2024-07-12T07:49:43Z",
+          "updated_at": "2024-07-12T07:49:43Z",
+          "comment_type": "issue"
+        },
+        {
+          "id": 2225265201,
+          "user": "Ox0400",
+          "body": "```\r\n>>> import numpy as np\r\n>>> \r\n>>> array = np.array([[1, 2, 3, 0, 0],\r\n...                   [4, 5, 6, 0, 0],\r\n...                   [0, 0, 0, 0, 0],\r\n...                   [7, 0, 9, 0, 0],\r\n...                   [0, 0, 0, 0, 0]])\r\n>>> \r\n>>> # Identify rows with non-zero elements using np.any\r\n>>> keep_rows = np.any(array != 0, axis=1)\r\n>>> keep_cols = np.sum(array != 0, axis=0) > 0\r\n>>> # Filter both rows and columns using slicing\r\n>>> result = array[keep_rows, :][:, keep_cols]\r\n>>> \r\n>>> \r\n>>> result\r\narray([[1, 2, 3],\r\n       [4, 5, 6],\r\n       [7, 0, 9]])\r\n>>> \r\n\r\n\r\n\r\n```",
+          "created_at": "2024-07-12T10:15:13Z",
+          "updated_at": "2024-07-12T10:15:13Z",
+          "comment_type": "issue"
+        },
+        {
+          "id": 2225532640,
+          "user": "fumiama",
+          "body": "维数不能变啊，就算给个[]或者None也行。另外，请解决冲突（可以先用最新版代码覆盖，然后加以更改）",
+          "created_at": "2024-07-12T12:59:57Z",
+          "updated_at": "2024-07-12T13:01:49Z",
+          "comment_type": "issue"
+        },
+        {
+          "id": 2225731267,
+          "user": "Ox0400",
+          "body": "> 维数不能变啊，就算给个[]或者None也行。另外，请解决冲突（可以先用最新版代码覆盖，然后加以更改）\r\n\r\n我实际测试中是没有问题的, 所有的噪音都没了... 我是想 16k 的大小, 如果某个维度全是 0, 这个维度是不是本身就有问题",
+          "created_at": "2024-07-12T14:38:41Z",
+          "updated_at": "2024-07-12T14:38:41Z",
+          "comment_type": "issue"
+        },
+        {
+          "id": 2226047076,
+          "user": "fumiama",
+          "body": "> 如果某个维度全是 0, 这个维度是不是本身就有问题\n\n是有问题，但不能错位，要不其它的都对不上下标了，这就把问题扩大了。",
+          "created_at": "2024-07-12T17:36:51Z",
+          "updated_at": "2024-07-12T17:36:51Z",
+          "comment_type": "issue"
+        },
+        {
+          "id": 2227595065,
+          "user": "Ox0400",
+          "body": "按照这个逻辑 ? 最后一行全 0 需要删么\r\n```\r\n>>> array = np.array(\r\n... [[1, 2, 3, 0, 0],\r\n... [4, 5, 6, 0, 0],\r\n... [0, 0, 0, 0, 0],\r\n... [7, 0, 9, 0, 0],\r\n... [7, 0, 9, 2, 0],\r\n... [0, 0, 0, 0, 0]]\r\n... )\r\n\r\n>>> result\r\narray([[1, 2, 3, 0],\r\n       [4, 5, 6, 0],\r\n       [0, 0, 0, 0],\r\n       [7, 0, 9, 0],\r\n       [7, 0, 9, 2],\r\n       [0, 0, 0, 0]])\r\n```\r\n",
+          "created_at": "2024-07-15T02:05:39Z",
+          "updated_at": "2024-07-15T02:05:39Z",
+          "comment_type": "issue"
+        },
+        {
+          "id": 2227703450,
+          "user": "fumiama",
+          "body": "> 最后一行全 0 需要删么\r\n\r\n不用，就这样就行。👍",
+          "created_at": "2024-07-15T05:00:46Z",
+          "updated_at": "2024-07-15T05:00:46Z",
+          "comment_type": "issue"
+        },
+        {
+          "id": 1678942927,
+          "user": "fumiama",
+          "body": "中间有0怎么办呢",
+          "created_at": "2024-07-16T08:03:14Z",
+          "updated_at": "2024-07-16T08:03:17Z",
+          "comment_type": "review"
+        },
+        {
+          "id": 1679066744,
+          "user": "Ox0400",
+          "body": "就是按照这个实现的\r\n\r\nhttps://github.com/2noise/ChatTTS/pull/564#issuecomment-2227595065\r\n\r\n```\r\nimport numpy as np\r\n\r\narray = np.array(\r\n[[1, 2, 3, 0, 0],\r\n[4, 5, 6, 0, 0],\r\n[0, 0, 0, 0, 0],\r\n[7, 0, 9, 0, 0],\r\n[7, 0, 9, 2, 0],\r\n[0, 0, 0, 0, 0]]\r\n)\r\n\r\n# Identify rows with non-zero elements using np.any\r\n# keep_rows = np.any(array != 0, axis=1)\r\nkeep_cols = np.sum(array != 0, axis=0) > 0\r\n# Filter both rows and columns using slicing\r\nresult = array[:][:, keep_cols]\r\nprint(result)\r\n\r\n>>> print(result)\r\n[[1 2 3 0]\r\n [4 5 6 0]\r\n [0 0 0 0]\r\n [7 0 9 0]\r\n [7 0 9 2]\r\n [0 0 0 0]]\r\n>>> \r\n```",
+          "created_at": "2024-07-16T09:29:27Z",
+          "updated_at": "2024-07-16T09:31:34Z",
+          "comment_type": "review"
+        },
+        {
+          "id": 1679290550,
+          "user": "fumiama",
+          "body": "OK.",
+          "created_at": "2024-07-16T12:19:34Z",
+          "updated_at": "2024-07-16T12:19:34Z",
+          "comment_type": "review"
+        }
+      ]
+    },
+    {
+      "number": 563,
+      "title": "Update reademe.md to fix save audio bug in the demo",
+      "state": "closed",
+      "user": "youralmight",
+      "created_at": "2024-07-11T08:42:39Z",
+      "updated_at": "2024-07-11T15:59:13Z",
+      "closed_at": "2024-07-11T15:59:13Z",
+      "merged_at": "2024-07-11T15:59:13Z",
+      "comments_count": 0,
+      "issue_comments_count": 0,
+      "review_comments_count": 0,
+      "comments": []
+    },
+    {
+      "number": 549,
+      "title": "cmd/jupyter流式代码简化优化；cmd/jupyter stream play example simplify",
+      "state": "closed",
+      "user": "ZaymeShaw",
+      "created_at": "2024-07-09T02:01:47Z",
+      "updated_at": "2024-07-10T05:29:21Z",
+      "closed_at": "2024-07-10T05:29:21Z",
+      "merged_at": "2024-07-10T05:29:21Z",
+      "comments_count": 10,
+      "issue_comments_count": 0,
+      "review_comments_count": 10,
+      "comments": [
+        {
+          "id": 1669785392,
+          "user": "fumiama",
+          "body": "Maybe you should use\r\n```py\r\nfrom tools.audio import batch_unsafe_float_to_int16\r\n```\r\nor change it.",
+          "created_at": "2024-07-09T06:04:56Z",
+          "updated_at": "2024-07-09T06:13:21Z",
+          "comment_type": "review"
+        },
+        {
+          "id": 1669786115,
+          "user": "fumiama",
+          "body": "No need of `@classmethod`. Maybe you mean `@staticmethod`?",
+          "created_at": "2024-07-09T06:05:35Z",
+          "updated_at": "2024-07-09T06:13:21Z",
+          "comment_type": "review"
+        },
+        {
+          "id": 1669786262,
+          "user": "fumiama",
+          "body": "No need of `@classmethod`. Maybe you mean `@staticmethod`?",
+          "created_at": "2024-07-09T06:05:45Z",
+          "updated_at": "2024-07-09T06:13:21Z",
+          "comment_type": "review"
+        },
+        {
+          "id": 1669786368,
+          "user": "fumiama",
+          "body": "No need of `@classmethod`. Maybe you mean `@staticmethod`?",
+          "created_at": "2024-07-09T06:05:53Z",
+          "updated_at": "2024-07-09T06:13:21Z",
+          "comment_type": "review"
+        },
+        {
+          "id": 1669786458,
+          "user": "fumiama",
+          "body": "No need of `@classmethod`. Maybe you mean `@staticmethod`?",
+          "created_at": "2024-07-09T06:06:00Z",
+          "updated_at": "2024-07-09T06:13:21Z",
+          "comment_type": "review"
+        },
+        {
+          "id": 1669786556,
+          "user": "fumiama",
+          "body": "No need of `@classmethod`. Maybe you mean `@staticmethod`?",
+          "created_at": "2024-07-09T06:06:07Z",
+          "updated_at": "2024-07-09T06:13:21Z",
+          "comment_type": "review"
+        },
+        {
+          "id": 1669786647,
+          "user": "fumiama",
+          "body": "No need of `@classmethod`. Just use `self`. Then call it after initializing an instance `streamer = ChatStreamer()`",
+          "created_at": "2024-07-09T06:06:13Z",
+          "updated_at": "2024-07-09T06:13:21Z",
+          "comment_type": "review"
+        },
+        {
+          "id": 1669791423,
+          "user": "fumiama",
+          "body": "Import pyaudio here, but not below.",
+          "created_at": "2024-07-09T06:10:21Z",
+          "updated_at": "2024-07-09T06:13:21Z",
+          "comment_type": "review"
+        },
+        {
+          "id": 1669795002,
+          "user": "fumiama",
+          "body": "You can combine the two examples into one function called `play`, and adjust it with the parameter. Ex. when pass `first_prefill_size=0`, the function will behave the same way as old `example_0`.",
+          "created_at": "2024-07-09T06:12:42Z",
+          "updated_at": "2024-07-09T06:13:21Z",
+          "comment_type": "review"
+        },
+        {
+          "id": 1670443621,
+          "user": "ZaymeShaw",
+          "body": "Thanks for the suggestion! I tried batch_unsafe_float_to_int16 in tools before and found some problems when running in jit mode.So i make some changes in the example. I can merge it into the tools later.",
+          "created_at": "2024-07-09T12:29:04Z",
+          "updated_at": "2024-07-09T12:29:04Z",
+          "comment_type": "review"
+        }
+      ]
+    },
+    {
+      "number": 546,
+      "title": "fix(api): fix order of args for writestr",
+      "state": "closed",
+      "user": "briancaffey",
+      "created_at": "2024-07-07T16:03:36Z",
+      "updated_at": "2024-07-08T10:30:42Z",
+      "closed_at": "2024-07-08T10:30:42Z",
+      "merged_at": "2024-07-08T10:30:42Z",
+      "comments_count": 0,
+      "issue_comments_count": 0,
+      "review_comments_count": 0,
+      "comments": []
+    },
+    {
+      "number": 533,
+      "title": "Add language: franch",
+      "state": "closed",
+      "user": "Gloridust",
+      "created_at": "2024-07-05T09:56:51Z",
+      "updated_at": "2024-07-05T10:25:51Z",
+      "closed_at": "2024-07-05T10:25:51Z",
+      "merged_at": "2024-07-05T10:25:51Z",
+      "comments_count": 4,
+      "issue_comments_count": 1,
+      "review_comments_count": 3,
+      "comments": [
+        {
+          "id": 2210610465,
+          "user": "Gloridust",
+          "body": "I committed the fixed version, please check it again.",
+          "created_at": "2024-07-05T10:17:11Z",
+          "updated_at": "2024-07-05T10:17:11Z",
+          "comment_type": "issue"
+        },
+        {
+          "id": 1666615865,
+          "user": "fumiama",
+          "body": "Besides EN version `README.md`, the link refer to FR should be `../fr/README.md`. The other files have the same problem.",
+          "created_at": "2024-07-05T10:05:20Z",
+          "updated_at": "2024-07-05T10:06:34Z",
+          "comment_type": "review"
+        },
+        {
+          "id": 1666616645,
+          "user": "fumiama",
+          "body": "You can click them to test whether the links are reachable.",
+          "created_at": "2024-07-05T10:06:12Z",
+          "updated_at": "2024-07-05T10:06:34Z",
+          "comment_type": "review"
+        },
+        {
+          "id": 1666621485,
+          "user": "Gloridust",
+          "body": "Thanks for pointing out the problem, I will fix it soon",
+          "created_at": "2024-07-05T10:10:53Z",
+          "updated_at": "2024-07-05T10:10:54Z",
+          "comment_type": "review"
+        }
+      ]
+    },
+    {
+      "number": 530,
+      "title": "feat(api): add chattts api example using fastapi",
+      "state": "closed",
+      "user": "briancaffey",
+      "created_at": "2024-07-04T22:59:06Z",
+      "updated_at": "2024-07-05T05:09:03Z",
+      "closed_at": "2024-07-05T05:09:03Z",
+      "merged_at": "2024-07-05T05:09:03Z",
+      "comments_count": 0,
+      "issue_comments_count": 0,
+      "review_comments_count": 0,
+      "comments": []
+    },
+    {
+      "number": 528,
+      "title": "test workflow",
+      "state": "closed",
+      "user": "fumiama",
+      "created_at": "2024-07-04T13:29:43Z",
+      "updated_at": "2024-07-04T13:31:08Z",
+      "closed_at": "2024-07-04T13:30:57Z",
+      "merged_at": null,
+      "comments_count": 0,
+      "issue_comments_count": 0,
+      "review_comments_count": 0,
+      "comments": []
+    },
+    {
+      "number": 516,
+      "title": "doc: add english version of Awesome-ChatTTS",
+      "state": "closed",
+      "user": "libukai",
+      "created_at": "2024-07-03T14:54:22Z",
+      "updated_at": "2024-07-04T05:13:53Z",
+      "closed_at": "2024-07-04T05:13:53Z",
+      "merged_at": "2024-07-04T05:13:53Z",
+      "comments_count": 0,
+      "issue_comments_count": 0,
+      "review_comments_count": 0,
+      "comments": []
+    },
+    {
+      "number": 512,
+      "title": "cmd/jupyter流式播放代码；add stream display example in cmd/jupyter mode ",
+      "state": "closed",
+      "user": "ZaymeShaw",
+      "created_at": "2024-07-03T03:20:10Z",
+      "updated_at": "2024-07-04T10:21:40Z",
+      "closed_at": "2024-07-04T10:21:40Z",
+      "merged_at": "2024-07-04T10:21:40Z",
+      "comments_count": 10,
+      "issue_comments_count": 2,
+      "review_comments_count": 8,
+      "comments": [
+        {
+          "id": 2208450245,
+          "user": "ZaymeShaw",
+          "body": "我发现一个问题，stream infer的generator正常生成的是12032维的ndarray列表，但有小概率会在中间变成256维ndarray列表，256维部分的声音全是噪声，这个应该不是我的流式播放处理逻辑导致的问题。我尝试把流式输出全部先取出来再播放，256维部分也是噪声。大概每运行10几次streamchat左右会出现一次这个问题",
+          "created_at": "2024-07-04T08:52:00Z",
+          "updated_at": "2024-07-04T08:52:00Z",
+          "comment_type": "issue"
+        },
+        {
+          "id": 2208627107,
+          "user": "fumiama",
+          "body": "> 我发现一个问题，stream infer的generator正常生成的是12032维的ndarray列表，但有小概率会在中间变成256维ndarray列表，256维部分的声音全是噪声\r\n\r\n可以开一个issue，这应该是流式自己的问题。",
+          "created_at": "2024-07-04T10:19:51Z",
+          "updated_at": "2024-07-04T10:19:51Z",
+          "comment_type": "issue"
+        },
+        {
+          "id": 1663458432,
+          "user": "fumiama",
+          "body": "应在requirements.txt加入相关依赖。",
+          "created_at": "2024-07-03T04:14:40Z",
+          "updated_at": "2024-07-03T04:26:15Z",
+          "comment_type": "review"
+        },
+        {
+          "id": 1663459088,
+          "user": "fumiama",
+          "body": "可使用防爆音的`tools.audio.unsafe_float_to_int16`",
+          "created_at": "2024-07-03T04:16:08Z",
+          "updated_at": "2024-07-03T04:26:15Z",
+          "comment_type": "review"
+        },
+        {
+          "id": 1663460035,
+          "user": "fumiama",
+          "body": "效率太低，建议用\r\n```py\r\nwaveform.astype(\"<i2\").tobytes()\r\n```",
+          "created_at": "2024-07-03T04:18:01Z",
+          "updated_at": "2024-07-03T04:26:15Z",
+          "comment_type": "review"
+        },
+        {
+          "id": 1663460939,
+          "user": "fumiama",
+          "body": "可省略前缀`TTS`，直接命名为`ChatStreamer`。",
+          "created_at": "2024-07-03T04:19:43Z",
+          "updated_at": "2024-07-03T04:26:15Z",
+          "comment_type": "review"
+        },
+        {
+          "id": 1663461801,
+          "user": "fumiama",
+          "body": "名字直接`play`即可。",
+          "created_at": "2024-07-03T04:21:25Z",
+          "updated_at": "2024-07-03T04:26:15Z",
+          "comment_type": "review"
+        },
+        {
+          "id": 1663462386,
+          "user": "fumiama",
+          "body": "建议将此方法包装入streamer，可命名为`start`，同时提供对应join。",
+          "created_at": "2024-07-03T04:22:46Z",
+          "updated_at": "2024-07-03T04:26:15Z",
+          "comment_type": "review"
+        },
+        {
+          "id": 1663464449,
+          "user": "fumiama",
+          "body": "既然已经流式，可不必播放完整声音。",
+          "created_at": "2024-07-03T04:25:57Z",
+          "updated_at": "2024-07-03T04:26:15Z",
+          "comment_type": "review"
+        },
+        {
+          "id": 1663516116,
+          "user": "ZaymeShaw",
+          "body": "感谢建议！",
+          "created_at": "2024-07-03T05:34:55Z",
+          "updated_at": "2024-07-03T05:34:55Z",
+          "comment_type": "review"
+        }
+      ]
+    },
+    {
+      "number": 509,
+      "title": "doc: sync latest README",
+      "state": "closed",
+      "user": "libukai",
+      "created_at": "2024-07-02T08:15:05Z",
+      "updated_at": "2024-07-03T03:32:16Z",
+      "closed_at": "2024-07-02T09:56:10Z",
+      "merged_at": "2024-07-02T09:56:10Z",
+      "comments_count": 0,
+      "issue_comments_count": 0,
+      "review_comments_count": 0,
+      "comments": []
+    },
+    {
+      "number": 498,
+      "title": "doc: add TransformerEngine installation instruction",
+      "state": "closed",
+      "user": "fumiama",
+      "created_at": "2024-06-28T14:41:36Z",
+      "updated_at": "2024-06-28T14:42:05Z",
+      "closed_at": "2024-06-28T14:41:40Z",
+      "merged_at": "2024-06-28T14:41:40Z",
+      "comments_count": 0,
+      "issue_comments_count": 0,
+      "review_comments_count": 0,
+      "comments": []
+    },
+    {
+      "number": 496,
+      "title": "perf(gpt): add NVIDIA accelerated TELlamaModel",
+      "state": "closed",
+      "user": "fumiama",
+      "created_at": "2024-06-28T13:57:13Z",
+      "updated_at": "2024-06-28T13:59:00Z",
+      "closed_at": "2024-06-28T13:57:17Z",
+      "merged_at": "2024-06-28T13:57:17Z",
+      "comments_count": 0,
+      "issue_comments_count": 0,
+      "review_comments_count": 0,
+      "comments": []
+    },
+    {
+      "number": 495,
+      "title": "optimize(_apply_spk_emb): expand after F.normalize",
+      "state": "closed",
+      "user": "fumiama",
+      "created_at": "2024-06-28T12:23:26Z",
+      "updated_at": "2024-06-28T12:23:42Z",
+      "closed_at": "2024-06-28T12:23:31Z",
+      "merged_at": "2024-06-28T12:23:31Z",
+      "comments_count": 0,
+      "issue_comments_count": 0,
+      "review_comments_count": 0,
+      "comments": []
+    },
+    {
+      "number": 493,
+      "title": "fix(webui): fallback to wav if ffmpeg not installed",
+      "state": "closed",
+      "user": "fumiama",
+      "created_at": "2024-06-28T12:10:24Z",
+      "updated_at": "2024-06-28T12:10:55Z",
+      "closed_at": "2024-06-28T12:10:29Z",
+      "merged_at": "2024-06-28T12:10:29Z",
+      "comments_count": 0,
+      "issue_comments_count": 0,
+      "review_comments_count": 0,
+      "comments": []
+    },
+    {
+      "number": 489,
+      "title": "fix(dl): type obj not subscriptable on some py ver",
+      "state": "closed",
+      "user": "fumiama",
+      "created_at": "2024-06-28T06:17:38Z",
+      "updated_at": "2024-06-28T06:17:56Z",
+      "closed_at": "2024-06-28T06:17:43Z",
+      "merged_at": "2024-06-28T06:17:43Z",
+      "comments_count": 0,
+      "issue_comments_count": 0,
+      "review_comments_count": 0,
+      "comments": []
+    },
+    {
+      "number": 488,
+      "title": "refactor: remove unnecessary transpositions",
+      "state": "closed",
+      "user": "charSLee013",
+      "created_at": "2024-06-27T18:15:46Z",
+      "updated_at": "2024-06-28T10:01:21Z",
+      "closed_at": "2024-06-28T10:01:21Z",
+      "merged_at": "2024-06-28T10:01:21Z",
+      "comments_count": 2,
+      "issue_comments_count": 0,
+      "review_comments_count": 2,
+      "comments": [
+        {
+          "id": 1658157890,
+          "user": "fumiama",
+          "body": "Thanks! You may also want to remove the redundant output transpose here.",
+          "created_at": "2024-06-28T05:20:53Z",
+          "updated_at": "2024-06-28T05:20:57Z",
+          "comment_type": "review"
+        },
+        {
+          "id": 1658293515,
+          "user": "charSLee013",
+          "body": "Yes! thank you for the reminder ",
+          "created_at": "2024-06-28T07:40:21Z",
+          "updated_at": "2024-06-28T07:40:22Z",
+          "comment_type": "review"
+        }
+      ]
+    },
+    {
+      "number": 486,
+      "title": "optimize(webui): unify initial value to ex[0]",
+      "state": "closed",
+      "user": "fumiama",
+      "created_at": "2024-06-27T15:43:02Z",
+      "updated_at": "2024-06-27T15:43:39Z",
+      "closed_at": "2024-06-27T15:43:07Z",
+      "merged_at": "2024-06-27T15:43:07Z",
+      "comments_count": 0,
+      "issue_comments_count": 0,
+      "review_comments_count": 0,
+      "comments": []
+    },
+    {
+      "number": 483,
+      "title": "fix(webui): specify every interactive=True (fix #482)",
+      "state": "closed",
+      "user": "fumiama",
+      "created_at": "2024-06-27T13:36:00Z",
+      "updated_at": "2024-06-27T13:41:34Z",
+      "closed_at": "2024-06-27T13:36:05Z",
+      "merged_at": "2024-06-27T13:36:05Z",
+      "comments_count": 0,
+      "issue_comments_count": 0,
+      "review_comments_count": 0,
+      "comments": []
+    },
+    {
+      "number": 480,
+      "title": "fix: _encode_spk_emb use 'tobytes' without check 'dtype'",
+      "state": "closed",
+      "user": "afpro",
+      "created_at": "2024-06-27T12:24:22Z",
+      "updated_at": "2024-06-27T13:36:58Z",
+      "closed_at": "2024-06-27T13:36:58Z",
+      "merged_at": "2024-06-27T13:36:58Z",
+      "comments_count": 0,
+      "issue_comments_count": 0,
+      "review_comments_count": 0,
+      "comments": []
+    },
+    {
+      "number": 478,
+      "title": "chore: add .DS_Store ignorance",
+      "state": "closed",
+      "user": "fumiama",
+      "created_at": "2024-06-27T11:03:28Z",
+      "updated_at": "2024-06-27T11:03:50Z",
+      "closed_at": "2024-06-27T11:03:36Z",
+      "merged_at": "2024-06-27T11:03:36Z",
+      "comments_count": 0,
+      "issue_comments_count": 0,
+      "review_comments_count": 0,
+      "comments": []
+    },
+    {
+      "number": 474,
+      "title": "feat(chat): add hidden api `_encode_spk_emb`",
+      "state": "closed",
+      "user": "fumiama",
+      "created_at": "2024-06-27T07:55:42Z",
+      "updated_at": "2024-06-27T07:55:55Z",
+      "closed_at": "2024-06-27T07:55:48Z",
+      "merged_at": "2024-06-27T07:55:48Z",
+      "comments_count": 0,
+      "issue_comments_count": 0,
+      "review_comments_count": 0,
+      "comments": []
+    },
+    {
+      "number": 472,
+      "title": "perf: use cpu in MacOS by default",
+      "state": "closed",
+      "user": "fumiama",
+      "created_at": "2024-06-27T03:28:42Z",
+      "updated_at": "2024-06-27T03:29:16Z",
+      "closed_at": "2024-06-27T03:28:46Z",
+      "merged_at": "2024-06-27T03:28:46Z",
+      "comments_count": 0,
+      "issue_comments_count": 0,
+      "review_comments_count": 0,
+      "comments": []
+    },
+    {
+      "number": 469,
+      "title": "fix(webui): input textbox not editable",
+      "state": "closed",
+      "user": "fumiama",
+      "created_at": "2024-06-26T16:42:52Z",
+      "updated_at": "2024-06-26T16:43:04Z",
+      "closed_at": "2024-06-26T16:42:57Z",
+      "merged_at": "2024-06-26T16:42:57Z",
+      "comments_count": 0,
+      "issue_comments_count": 0,
+      "review_comments_count": 0,
+      "comments": []
+    },
+    {
+      "number": 467,
+      "title": "feat(webui): support external spk_emb",
+      "state": "closed",
+      "user": "fumiama",
+      "created_at": "2024-06-26T09:16:20Z",
+      "updated_at": "2024-06-26T09:18:18Z",
+      "closed_at": "2024-06-26T09:16:31Z",
+      "merged_at": "2024-06-26T09:16:31Z",
+      "comments_count": 0,
+      "issue_comments_count": 0,
+      "review_comments_count": 0,
+      "comments": []
+    },
+    {
+      "number": 466,
+      "title": "fix(webui): crash on non-ffmpeg env.",
+      "state": "closed",
+      "user": "fumiama",
+      "created_at": "2024-06-26T08:48:38Z",
+      "updated_at": "2024-06-26T08:48:55Z",
+      "closed_at": "2024-06-26T08:48:43Z",
+      "merged_at": "2024-06-26T08:48:43Z",
+      "comments_count": 0,
+      "issue_comments_count": 0,
+      "review_comments_count": 0,
+      "comments": []
+    },
+    {
+      "number": 464,
+      "title": "fix: redundant `[spk_emb]`s in refine_text (fix #459)",
+      "state": "closed",
+      "user": "fumiama",
+      "created_at": "2024-06-26T08:29:51Z",
+      "updated_at": "2024-06-26T08:30:09Z",
+      "closed_at": "2024-06-26T08:29:58Z",
+      "merged_at": "2024-06-26T08:29:58Z",
+      "comments_count": 0,
+      "issue_comments_count": 0,
+      "review_comments_count": 0,
+      "comments": []
+    },
+    {
+      "number": 463,
+      "title": "feat: use `str` type `spk_emb` for easy recovery",
+      "state": "closed",
+      "user": "fumiama",
+      "created_at": "2024-06-26T08:04:56Z",
+      "updated_at": "2024-06-29T03:20:07Z",
+      "closed_at": "2024-06-26T08:05:01Z",
+      "merged_at": "2024-06-26T08:05:01Z",
+      "comments_count": 2,
+      "issue_comments_count": 2,
+      "review_comments_count": 0,
+      "comments": [
+        {
+          "id": 2197868194,
+          "user": "quanqigu",
+          "body": "请问大佬，现在要怎么加载之前的音色呢？",
+          "created_at": "2024-06-29T02:52:54Z",
+          "updated_at": "2024-06-29T02:52:54Z",
+          "comment_type": "issue"
+        },
+        {
+          "id": 2197875415,
+          "user": "fumiama",
+          "body": "> 请问大佬，现在要怎么加载之前的音色呢？\n\n有一个隐藏方法`chat._encode_epk_emb`",
+          "created_at": "2024-06-29T03:20:05Z",
+          "updated_at": "2024-06-29T03:20:05Z",
+          "comment_type": "issue"
+        }
+      ]
+    },
+    {
+      "number": 461,
+      "title": "optimize: spk_emb & generate & webui",
+      "state": "closed",
+      "user": "fumiama",
+      "created_at": "2024-06-26T07:10:02Z",
+      "updated_at": "2024-06-26T07:18:55Z",
+      "closed_at": "2024-06-26T07:10:21Z",
+      "merged_at": "2024-06-26T07:10:21Z",
+      "comments_count": 0,
+      "issue_comments_count": 0,
+      "review_comments_count": 0,
+      "comments": []
+    },
+    {
+      "number": 460,
+      "title": "optimize: spk_emb & generate & webui",
+      "state": "closed",
+      "user": "fumiama",
+      "created_at": "2024-06-26T07:08:57Z",
+      "updated_at": "2024-06-26T07:18:54Z",
+      "closed_at": "2024-06-26T07:09:46Z",
+      "merged_at": null,
+      "comments_count": 0,
+      "issue_comments_count": 0,
+      "review_comments_count": 0,
+      "comments": []
+    },
+    {
+      "number": 458,
+      "title": "fix docs",
+      "state": "closed",
+      "user": "ghost",
+      "created_at": "2024-06-26T06:20:24Z",
+      "updated_at": "2024-06-26T07:10:50Z",
+      "closed_at": "2024-06-26T07:10:50Z",
+      "merged_at": "2024-06-26T07:10:50Z",
+      "comments_count": 0,
+      "issue_comments_count": 0,
+      "review_comments_count": 0,
+      "comments": []
+    },
+    {
+      "number": 457,
+      "title": "fix(setup): invalid version (fix #456)",
+      "state": "closed",
+      "user": "fumiama",
+      "created_at": "2024-06-26T05:51:18Z",
+      "updated_at": "2024-06-26T05:56:08Z",
+      "closed_at": "2024-06-26T05:55:30Z",
+      "merged_at": "2024-06-26T05:55:30Z",
+      "comments_count": 0,
+      "issue_comments_count": 0,
+      "review_comments_count": 0,
+      "comments": []
+    },
+    {
+      "number": 454,
+      "title": "fix(core): mps infer incorrect on some device (fix #444)",
+      "state": "closed",
+      "user": "fumiama",
+      "created_at": "2024-06-25T16:16:19Z",
+      "updated_at": "2024-06-25T16:16:51Z",
+      "closed_at": "2024-06-25T16:16:24Z",
+      "merged_at": "2024-06-25T16:16:24Z",
+      "comments_count": 0,
+      "issue_comments_count": 0,
+      "review_comments_count": 0,
+      "comments": []
+    },
+    {
+      "number": 453,
+      "title": "feat(chat): add model check to custom load",
+      "state": "closed",
+      "user": "fumiama",
+      "created_at": "2024-06-25T15:13:54Z",
+      "updated_at": "2024-06-25T15:14:14Z",
+      "closed_at": "2024-06-25T15:13:59Z",
+      "merged_at": "2024-06-25T15:13:59Z",
+      "comments_count": 0,
+      "issue_comments_count": 0,
+      "review_comments_count": 0,
+      "comments": []
+    },
+    {
+      "number": 452,
+      "title": "fix(setup): README decoding issue",
+      "state": "closed",
+      "user": "fumiama",
+      "created_at": "2024-06-25T14:48:15Z",
+      "updated_at": "2024-06-25T14:48:26Z",
+      "closed_at": "2024-06-25T14:48:19Z",
+      "merged_at": "2024-06-25T14:48:19Z",
+      "comments_count": 0,
+      "issue_comments_count": 0,
+      "review_comments_count": 0,
+      "comments": []
+    },
+    {
+      "number": 451,
+      "title": "optimize(model): more torch funcalls",
+      "state": "closed",
+      "user": "fumiama",
+      "created_at": "2024-06-25T14:40:44Z",
+      "updated_at": "2024-06-25T14:41:00Z",
+      "closed_at": "2024-06-25T14:40:49Z",
+      "merged_at": "2024-06-25T14:40:49Z",
+      "comments_count": 0,
+      "issue_comments_count": 0,
+      "review_comments_count": 0,
+      "comments": []
+    },
+    {
+      "number": 449,
+      "title": "feat(examples): use mp3 output by default",
+      "state": "closed",
+      "user": "fumiama",
+      "created_at": "2024-06-25T12:41:20Z",
+      "updated_at": "2024-06-25T12:42:44Z",
+      "closed_at": "2024-06-25T12:41:25Z",
+      "merged_at": "2024-06-25T12:41:25Z",
+      "comments_count": 0,
+      "issue_comments_count": 0,
+      "review_comments_count": 0,
+      "comments": []
+    },
+    {
+      "number": 447,
+      "title": "Spanish README file",
+      "state": "closed",
+      "user": "Rc-W024",
+      "created_at": "2024-06-25T10:24:54Z",
+      "updated_at": "2024-06-25T11:16:16Z",
+      "closed_at": "2024-06-25T11:16:16Z",
+      "merged_at": "2024-06-25T11:16:16Z",
+      "comments_count": 0,
+      "issue_comments_count": 0,
+      "review_comments_count": 0,
+      "comments": []
+    },
+    {
+      "number": 446,
+      "title": "doc: optimize README",
+      "state": "closed",
+      "user": "fumiama",
+      "created_at": "2024-06-25T10:01:08Z",
+      "updated_at": "2024-06-25T10:01:46Z",
+      "closed_at": "2024-06-25T10:01:13Z",
+      "merged_at": "2024-06-25T10:01:13Z",
+      "comments_count": 0,
+      "issue_comments_count": 0,
+      "review_comments_count": 0,
+      "comments": []
+    },
+    {
+      "number": 445,
+      "title": "doc: add new contacts",
+      "state": "closed",
+      "user": "fumiama",
+      "created_at": "2024-06-25T09:58:13Z",
+      "updated_at": "2024-06-25T09:59:56Z",
+      "closed_at": "2024-06-25T09:58:18Z",
+      "merged_at": "2024-06-25T09:58:18Z",
+      "comments_count": 0,
+      "issue_comments_count": 0,
+      "review_comments_count": 0,
+      "comments": []
+    },
+    {
+      "number": 442,
+      "title": "feat(workflow): add useful actions",
+      "state": "closed",
+      "user": "fumiama",
+      "created_at": "2024-06-25T08:17:53Z",
+      "updated_at": "2024-06-25T08:20:59Z",
+      "closed_at": "2024-06-25T08:20:38Z",
+      "merged_at": "2024-06-25T08:20:38Z",
+      "comments_count": 0,
+      "issue_comments_count": 0,
+      "review_comments_count": 0,
+      "comments": []
+    },
+    {
+      "number": 441,
+      "title": "fix(load): KeyError: 'sha256_config_decoder_yaml' (fix #438)",
+      "state": "closed",
+      "user": "fumiama",
+      "created_at": "2024-06-25T08:16:26Z",
+      "updated_at": "2024-06-25T08:16:40Z",
+      "closed_at": "2024-06-25T08:16:30Z",
+      "merged_at": "2024-06-25T08:16:30Z",
+      "comments_count": 0,
+      "issue_comments_count": 0,
+      "review_comments_count": 0,
+      "comments": []
+    },
+    {
+      "number": 433,
+      "title": "feat: interruptible infer",
+      "state": "closed",
+      "user": "fumiama",
+      "created_at": "2024-06-24T16:32:59Z",
+      "updated_at": "2024-06-24T16:33:50Z",
+      "closed_at": "2024-06-24T16:33:07Z",
+      "merged_at": "2024-06-24T16:33:07Z",
+      "comments_count": 0,
+      "issue_comments_count": 0,
+      "review_comments_count": 0,
+      "comments": []
+    },
+    {
+      "number": 432,
+      "title": "refactor: Chat.load_model to Chat.load",
+      "state": "closed",
+      "user": "fumiama",
+      "created_at": "2024-06-24T13:53:38Z",
+      "updated_at": "2024-06-24T16:33:51Z",
+      "closed_at": "2024-06-24T13:53:43Z",
+      "merged_at": "2024-06-24T13:53:43Z",
+      "comments_count": 0,
+      "issue_comments_count": 0,
+      "review_comments_count": 0,
+      "comments": []
+    },
+    {
+      "number": 431,
+      "title": "feat: normalize imports",
+      "state": "closed",
+      "user": "fumiama",
+      "created_at": "2024-06-24T13:48:27Z",
+      "updated_at": "2024-06-24T16:33:52Z",
+      "closed_at": "2024-06-24T13:48:32Z",
+      "merged_at": "2024-06-24T13:48:32Z",
+      "comments_count": 0,
+      "issue_comments_count": 0,
+      "review_comments_count": 0,
+      "comments": []
+    },
+    {
+      "number": 430,
+      "title": "fix(colab): color log printing",
+      "state": "closed",
+      "user": "fumiama",
+      "created_at": "2024-06-24T13:39:44Z",
+      "updated_at": "2024-06-24T13:39:57Z",
+      "closed_at": "2024-06-24T13:39:50Z",
+      "merged_at": "2024-06-24T13:39:50Z",
+      "comments_count": 0,
+      "issue_comments_count": 0,
+      "review_comments_count": 0,
+      "comments": []
+    },
+    {
+      "number": 429,
+      "title": "fix(install): incomplete installation",
+      "state": "closed",
+      "user": "LongQIByte",
+      "created_at": "2024-06-24T13:28:33Z",
+      "updated_at": "2024-06-24T13:41:02Z",
+      "closed_at": "2024-06-24T13:41:02Z",
+      "merged_at": "2024-06-24T13:41:02Z",
+      "comments_count": 0,
+      "issue_comments_count": 0,
+      "review_comments_count": 0,
+      "comments": []
+    },
+    {
+      "number": 428,
+      "title": "fix(norm): wrong type check to function (fix #423)",
+      "state": "closed",
+      "user": "fumiama",
+      "created_at": "2024-06-24T13:24:38Z",
+      "updated_at": "2024-06-24T13:39:58Z",
+      "closed_at": "2024-06-24T13:24:50Z",
+      "merged_at": "2024-06-24T13:24:50Z",
+      "comments_count": 0,
+      "issue_comments_count": 0,
+      "review_comments_count": 0,
+      "comments": []
+    },
+    {
+      "number": 427,
+      "title": "doc: sync to latest grammar",
+      "state": "closed",
+      "user": "fumiama",
+      "created_at": "2024-06-24T13:11:52Z",
+      "updated_at": "2024-06-24T13:12:05Z",
+      "closed_at": "2024-06-24T13:11:56Z",
+      "merged_at": "2024-06-24T13:11:56Z",
+      "comments_count": 0,
+      "issue_comments_count": 0,
+      "review_comments_count": 0,
+      "comments": []
+    },
+    {
+      "number": 422,
+      "title": "optimize: specify infer parameters",
+      "state": "closed",
+      "user": "fumiama",
+      "created_at": "2024-06-24T10:45:05Z",
+      "updated_at": "2024-06-24T10:45:22Z",
+      "closed_at": "2024-06-24T10:45:14Z",
+      "merged_at": "2024-06-24T10:45:14Z",
+      "comments_count": 0,
+      "issue_comments_count": 0,
+      "review_comments_count": 0,
+      "comments": []
+    },
+    {
+      "number": 421,
+      "title": "doc: optimize README",
+      "state": "closed",
+      "user": "fumiama",
+      "created_at": "2024-06-24T08:33:04Z",
+      "updated_at": "2024-06-24T10:45:24Z",
+      "closed_at": "2024-06-24T08:33:13Z",
+      "merged_at": "2024-06-24T08:33:13Z",
+      "comments_count": 0,
+      "issue_comments_count": 0,
+      "review_comments_count": 0,
+      "comments": []
+    },
+    {
+      "number": 420,
+      "title": "feat: add normalizer interface & move instances out",
+      "state": "closed",
+      "user": "fumiama",
+      "created_at": "2024-06-24T08:26:38Z",
+      "updated_at": "2024-06-24T08:29:42Z",
+      "closed_at": "2024-06-24T08:28:14Z",
+      "merged_at": "2024-06-24T08:28:14Z",
+      "comments_count": 0,
+      "issue_comments_count": 0,
+      "review_comments_count": 0,
+      "comments": []
+    },
+    {
+      "number": 419,
+      "title": "optimize(utils): move custom processors into model",
+      "state": "closed",
+      "user": "fumiama",
+      "created_at": "2024-06-24T07:27:10Z",
+      "updated_at": "2024-06-24T08:29:43Z",
+      "closed_at": "2024-06-24T07:27:15Z",
+      "merged_at": "2024-06-24T07:27:15Z",
+      "comments_count": 0,
+      "issue_comments_count": 0,
+      "review_comments_count": 0,
+      "comments": []
+    },
+    {
+      "number": 418,
+      "title": "fix(chat): model unload memory release",
+      "state": "closed",
+      "user": "fumiama",
+      "created_at": "2024-06-24T07:18:53Z",
+      "updated_at": "2024-06-24T07:20:45Z",
+      "closed_at": "2024-06-24T07:19:06Z",
+      "merged_at": "2024-06-24T07:19:06Z",
+      "comments_count": 0,
+      "issue_comments_count": 0,
+      "review_comments_count": 0,
+      "comments": []
+    },
+    {
+      "number": 416,
+      "title": "optimize(chat): move gpt&decoders out of dict",
+      "state": "closed",
+      "user": "fumiama",
+      "created_at": "2024-06-24T06:55:29Z",
+      "updated_at": "2024-06-24T06:56:03Z",
+      "closed_at": "2024-06-24T06:55:33Z",
+      "merged_at": "2024-06-24T06:55:33Z",
+      "comments_count": 0,
+      "issue_comments_count": 0,
+      "review_comments_count": 0,
+      "comments": []
+    },
+    {
+      "number": 415,
+      "title": "optimize: all",
+      "state": "closed",
+      "user": "fumiama",
+      "created_at": "2024-06-24T00:14:34Z",
+      "updated_at": "2024-06-24T00:27:14Z",
+      "closed_at": "2024-06-24T00:14:57Z",
+      "merged_at": "2024-06-24T00:14:57Z",
+      "comments_count": 0,
+      "issue_comments_count": 0,
+      "review_comments_count": 0,
+      "comments": []
+    },
+    {
+      "number": 414,
+      "title": "Add init.py to tools and web to fix launching webui demo",
+      "state": "closed",
+      "user": "aliencaocao",
+      "created_at": "2024-06-23T12:37:08Z",
+      "updated_at": "2024-06-24T01:03:43Z",
+      "closed_at": "2024-06-24T00:17:51Z",
+      "merged_at": "2024-06-24T00:17:50Z",
+      "comments_count": 0,
+      "issue_comments_count": 0,
+      "review_comments_count": 0,
+      "comments": []
+    },
+    {
+      "number": 413,
+      "title": "Disable torch.compile on Windows for webui demo",
+      "state": "closed",
+      "user": "aliencaocao",
+      "created_at": "2024-06-23T12:35:54Z",
+      "updated_at": "2024-06-24T06:57:31Z",
+      "closed_at": "2024-06-24T06:08:34Z",
+      "merged_at": "2024-06-24T06:08:34Z",
+      "comments_count": 0,
+      "issue_comments_count": 0,
+      "review_comments_count": 0,
+      "comments": []
+    },
+    {
+      "number": 411,
+      "title": "optimize: log printing",
+      "state": "closed",
+      "user": "fumiama",
+      "created_at": "2024-06-22T16:27:44Z",
+      "updated_at": "2024-06-22T16:39:13Z",
+      "closed_at": "2024-06-22T16:27:49Z",
+      "merged_at": "2024-06-22T16:27:49Z",
+      "comments_count": 0,
+      "issue_comments_count": 0,
+      "review_comments_count": 0,
+      "comments": []
+    },
+    {
+      "number": 410,
+      "title": "feat(ipynb): apply logger to notebook",
+      "state": "closed",
+      "user": "fumiama",
+      "created_at": "2024-06-22T15:17:10Z",
+      "updated_at": "2024-06-22T15:17:39Z",
+      "closed_at": "2024-06-22T15:17:19Z",
+      "merged_at": "2024-06-22T15:17:19Z",
+      "comments_count": 0,
+      "issue_comments_count": 0,
+      "review_comments_count": 0,
+      "comments": []
+    },
+    {
+      "number": 409,
+      "title": "fix(dvae): given NumPy array is not writable",
+      "state": "closed",
+      "user": "fumiama",
+      "created_at": "2024-06-22T15:06:50Z",
+      "updated_at": "2024-06-22T15:07:08Z",
+      "closed_at": "2024-06-22T15:06:55Z",
+      "merged_at": "2024-06-22T15:06:55Z",
+      "comments_count": 0,
+      "issue_comments_count": 0,
+      "review_comments_count": 0,
+      "comments": []
+    }
+  ]
+}
