@@ -18,7 +18,7 @@ def normalize_label(label: str) -> str:
         return "POSITIVE"
     else:
         return label.upper()
-
+ 
 # Inicialização do modelo
 print(f"🚀 Carregando modelo {MODEL_NAME}...")
 analyzer = pipeline(
@@ -30,7 +30,7 @@ analyzer = pipeline(
 )
 print("✅ Modelo carregado com sucesso!\n")
 
-# Leitura do arquivos JSON de P
+# Leitura do arquivos JSON de PRs
 with open(INPUT_FILE, encoding="utf-8") as f:
     data = json.load(f)
 
