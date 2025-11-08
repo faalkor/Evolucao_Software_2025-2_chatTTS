@@ -1,0 +1,1024 @@
+[
+  {
+    "pr_number": 946,
+    "user": "ivanmilevtues",
+    "text": "Thanks for the response!\r\n@fumiama just a quick question you want to add the link to the diagrams into the README?\r\n\r\nAs the issue with the structure change, we also have a FREE Github Action which I can setup for you and it can update the diagrams once a week so they are always up-to-date :)",
+    "label": "POSITIVE",
+    "score": 0.901
+  },
+  {
+    "pr_number": 946,
+    "user": "fumiama",
+    "text": "Thank you for your advice. I mean that at this stage, it’s fine to include a link but not directly embed it since it’s supplementary information that people can explore if they’re interested. Additionally, by including the link, visitors can be directed to your project and might also be interested in checking out the documentation of other projects.\r\n\r\nPlease include the link under **Introduction → Tips**, right after **Awesome-ChatTTS**, and make sure to add it for every language version.",
+    "label": "POSITIVE",
+    "score": 0.805
+  },
+  {
+    "pr_number": 946,
+    "user": "ivanmilevtues",
+    "text": "@fumiama thanks for the fast reply I updated accordingly. Let me know if you like it :). I also added the Note and Tip as translations to the pages that were missing it",
+    "label": "POSITIVE",
+    "score": 0.968
+  },
+  {
+    "pr_number": 937,
+    "user": "BBC-Esq",
+    "text": "I'm not sure why this workflow would have failed but let me know your thoughts.",
+    "label": "NEGATIVE",
+    "score": 0.529
+  },
+  {
+    "pr_number": 937,
+    "user": "fumiama",
+    "text": "I will check it. It seems not your fault.",
+    "label": "NEUTRAL",
+    "score": 0.936
+  },
+  {
+    "pr_number": 937,
+    "user": "BBC-Esq",
+    "text": "Thanks, when will a new release be done so that \"pip check\" doesn't show a conflict?",
+    "label": "NEUTRAL",
+    "score": 0.802
+  },
+  {
+    "pr_number": 937,
+    "user": "fumiama",
+    "text": "You can upgrade and check it now.",
+    "label": "NEUTRAL",
+    "score": 0.908
+  },
+  {
+    "pr_number": 913,
+    "user": "yueguobin",
+    "text": "看来我得先解决CI的问题了，虽然tests目录下的测试脚本与我提交的代码并无关系，但是需要通过CI才能完成PR。\r\n![2025-03-14_00-59-59](https://github.com/user-attachments/assets/9cfb36b4-de76-4974-81b0-6ebe903536b1)",
+    "label": "NEUTRAL",
+    "score": 0.967
+  },
+  {
+    "pr_number": 913,
+    "user": "fumiama",
+    "text": "确实是这样，但是既然你没有对ci做改动，说明是ci本身的问题，所以我可以先合并了，之后我们再想办法。",
+    "label": "NEUTRAL",
+    "score": 0.947
+  },
+  {
+    "pr_number": 913,
+    "user": "yueguobin",
+    "text": "> 确实是这样，但是既然你没有对ci做解决办法，说明是ci本身的问题，所以我可以先合并了，之后我们再想。\r\n\r\n第一次PR，不熟悉流程，这个页面还需要我做些什么操作么？",
+    "label": "NEUTRAL",
+    "score": 0.954
+  },
+  {
+    "pr_number": 913,
+    "user": "fumiama",
+    "text": "不用。",
+    "label": "NEUTRAL",
+    "score": 0.916
+  },
+  {
+    "pr_number": 870,
+    "user": "JaysonAlbert",
+    "text": "> It's quite independent. You can host this repo by yourself and open a PR, in which modify relevant segment of README, linking to your repo.\r\n\r\nThank you for the suggestion! I've created a repo at [ChatTTS-TorchServe](https://github.com/JaysonAlbert/ChatTTS-TorchServe.git), now i'm closing this PR.",
+    "label": "POSITIVE",
+    "score": 0.74
+  },
+  {
+    "pr_number": 864,
+    "user": "BBC-Esq",
+    "text": "Can you resolve this please?  I'm not an expert programmer and this is only a hobby of mine, but this pull request is superior to the one that you accepted.   Thanks.",
+    "label": "NEUTRAL",
+    "score": 0.531
+  },
+  {
+    "pr_number": 863,
+    "user": "BBC-Esq",
+    "text": "Feel free to delete the other pull request, although I do think that one is superior.",
+    "label": "NEUTRAL",
+    "score": 0.684
+  },
+  {
+    "pr_number": 863,
+    "user": "fumiama",
+    "text": "> Feel free to delete the other pull request, although I do think that one is superior.\r\n\r\nWell, you can edit them to resolve the conflict and I will still review it.",
+    "label": "NEUTRAL",
+    "score": 0.916
+  },
+  {
+    "pr_number": 816,
+    "user": "ain-soph",
+    "text": "I'm using 3.12 for developing fine-tuning branch and find no problem.  \r\nhttps://github.com/ain-soph/ChatTTS/tree/dev\r\n\r\n3.13 is still not supported by many Deep Learning packages. I don't think it shall be supported until upstream packages support it.",
+    "label": "NEUTRAL",
+    "score": 0.678
+  },
+  {
+    "pr_number": 816,
+    "user": "fumiama",
+    "text": "Maybe there's something wrong with conda. Sticking to 3.11 in doc can be a hint to user.",
+    "label": "NEGATIVE",
+    "score": 0.884
+  },
+  {
+    "pr_number": 788,
+    "user": "shen-shanshan",
+    "text": "已修改😄， @fumiama",
+    "label": "NEUTRAL",
+    "score": 0.961
+  },
+  {
+    "pr_number": 788,
+    "user": "fumiama",
+    "text": "不应在模型内打补丁，这实际是在改变模型的默认行为。应该在传入时就将audio转到cpu。",
+    "label": "NEUTRAL",
+    "score": 0.937
+  },
+  {
+    "pr_number": 788,
+    "user": "fumiama",
+    "text": "DVAE即使全部用CPU也并不会占用很长的处理时间，考虑将整个模型先切换到CPU，待`torchaudio.transforms.MelSpectrogram`适配完成后切回。",
+    "label": "NEUTRAL",
+    "score": 0.966
+  },
+  {
+    "pr_number": 788,
+    "user": "shen-shanshan",
+    "text": "已修改😄， @fumiama",
+    "label": "NEUTRAL",
+    "score": 0.961
+  },
+  {
+    "pr_number": 788,
+    "user": "shen-shanshan",
+    "text": "另外反馈一个问题，我看 `dev` 分支尝试加载模型失败，显示找不到 `Vocos.safetensors`、`DVAE.safetensors` 等模型文件，我看 HF 上也没有这些文件，导致 CI 报错。",
+    "label": "NEUTRAL",
+    "score": 0.955
+  },
+  {
+    "pr_number": 788,
+    "user": "fumiama",
+    "text": "HF的最新模型还没有合，测试可以下载https://huggingface.co/2Noise/ChatTTS/discussions/33",
+    "label": "NEUTRAL",
+    "score": 0.968
+  },
+  {
+    "pr_number": 788,
+    "user": "fumiama",
+    "text": "最新代码的写法已更改，应当使用最新写法`load_pretrained`。",
+    "label": "NEUTRAL",
+    "score": 0.967
+  },
+  {
+    "pr_number": 788,
+    "user": "fumiama",
+    "text": "这里不必更改。",
+    "label": "NEUTRAL",
+    "score": 0.898
+  },
+  {
+    "pr_number": 778,
+    "user": "pengooseDev",
+    "text": "@fumiama The request has been applied! Thx :)",
+    "label": "POSITIVE",
+    "score": 0.773
+  },
+  {
+    "pr_number": 778,
+    "user": "fumiama",
+    "text": "```suggestion\r\n**English** | [**简体中文**](docs/cn/README.md) | [**日本語**](docs/jp/README.md) | [**Русский**](docs/ru/README.md) | [**Español**](docs/es/README.md) | [**Français**](docs/fr/README.md) | [**한국어**](docs/kr/README.md)\r\n```",
+    "label": "NEUTRAL",
+    "score": 0.97
+  },
+  {
+    "pr_number": 777,
+    "user": "MengqingCao",
+    "text": "Please avoid intrusive modifications",
+    "label": "NEGATIVE",
+    "score": 0.505
+  },
+  {
+    "pr_number": 777,
+    "user": "shen-shanshan",
+    "text": "ok, I will modify it soon.",
+    "label": "NEUTRAL",
+    "score": 0.828
+  },
+  {
+    "pr_number": 777,
+    "user": "fumiama",
+    "text": "No need to rename this file. If you rename it, it is hard to see your changes.",
+    "label": "NEGATIVE",
+    "score": 0.781
+  },
+  {
+    "pr_number": 777,
+    "user": "fumiama",
+    "text": "No need to add additional tests because we cannot actually test it on NPU in GitHub action. Just make sure that these codes do not influence on current function.",
+    "label": "NEUTRAL",
+    "score": 0.659
+  },
+  {
+    "pr_number": 777,
+    "user": "fumiama",
+    "text": "Do not put this try into the function definition. Instead, put it at the top of this file, in case of user defining npu manually.",
+    "label": "NEUTRAL",
+    "score": 0.903
+  },
+  {
+    "pr_number": 777,
+    "user": "fumiama",
+    "text": "Do not wrap it into a function because it is designed just for CUDA. Instead, You can modify the main logic to test whether npu exists first, then CUDA, then MPS.",
+    "label": "NEUTRAL",
+    "score": 0.926
+  },
+  {
+    "pr_number": 777,
+    "user": "fumiama",
+    "text": "As for this judgment, you can wrap it as a function. See more detail from the comment below.",
+    "label": "NEUTRAL",
+    "score": 0.972
+  },
+  {
+    "pr_number": 759,
+    "user": "fumiama",
+    "text": "Well, it is missed intentionally because this is not a necessary import. Instead of adding this to the requirements.txt, you can add the usage instruction of `llm.py` in README and let user to install this package manually.",
+    "label": "NEGATIVE",
+    "score": 0.836
+  },
+  {
+    "pr_number": 755,
+    "user": "fumiama",
+    "text": "很坏的解决方案，完全破坏了设置的继承依赖关系。此配置应当从外部传入，而非自己二次引入。",
+    "label": "NEUTRAL",
+    "score": 0.93
+  },
+  {
+    "pr_number": 746,
+    "user": "IrisSally",
+    "text": "这一个版本太强大了，我用4090测，流式api第一个chunk 65毫秒，而且音色能固定，太快了，太快了，怀疑电脑坏了",
+    "label": "NEUTRAL",
+    "score": 0.956
+  },
+  {
+    "pr_number": 746,
+    "user": "ZaymeShaw",
+    "text": "感谢大佬分享。这个版本能和原版本保持相同音色吗，这个issue中有提到 #640",
+    "label": "NEUTRAL",
+    "score": 0.868
+  },
+  {
+    "pr_number": 746,
+    "user": "fengyizhu",
+    "text": "> 感谢大佬分享。这个版本能和原版本保持相同音色吗，这个issue中有提到 #640\r\n\r\nIt is fully compatible in principle.",
+    "label": "NEUTRAL",
+    "score": 0.553
+  },
+  {
+    "pr_number": 746,
+    "user": "LLongIsland",
+    "text": "> 这一个版本太强大了，我用4090测，流式api第一个chunk 65毫秒，而且音色能固定，太快了，太快了，怀疑电脑坏了\r\n\r\n4090上使用compile=True耗时3.3s的文本，用main分支vllm加速是1.6s，不能调整音色，用这个pr的版本可以调整，但速度只有2.6s左右",
+    "label": "NEUTRAL",
+    "score": 0.956
+  },
+  {
+    "pr_number": 746,
+    "user": "niuzheng168",
+    "text": "I am curious that why we choose move vllm codes to this project, instead of supporting the llm parts in vllm.\r\nSupporting the model in vllm will make such feature auto enabled, like streaming generate and continually batch\r\n\r\nalso @fumiama for this question",
+    "label": "NEUTRAL",
+    "score": 0.937
+  },
+  {
+    "pr_number": 746,
+    "user": "fumiama",
+    "text": "> I am curious that why we choose move vllm codes to this project, instead of supporting the llm parts in vllm.\n> \n> Supporting the model in vllm will make such feature auto enabled, like streaming generate and continually batch\n> \n> \n> \n> also @fumiama for this question\n\nThis part of code is contributed by the community and you can ask @ylzz1997 about that. I'm sorry but I'm not familiar with vLLM 😂.",
+    "label": "NEUTRAL",
+    "score": 0.87
+  },
+  {
+    "pr_number": 746,
+    "user": "ylzz1997",
+    "text": "> I am curious that why we choose move vllm codes to this project, instead of supporting the llm parts in vllm. Supporting the model in vllm will make such feature auto enabled, like streaming generate and continually batch\r\n> \r\n> also @fumiama for this question\r\n\r\nBecause Vllm don't suport some feature:\r\n1. custom lm-head\r\n2. multi-codebook sampler (custom sampler)\r\n3. sample without tokenizer\r\n\r\nIn order for the sampler to support vllm features such as continuous batch and streaming generate, it is necessary to package the post model (lm_cead and others) into vllm schedular. This requires rewriting the VLLM part of the code.\r\n\r\nThat's all",
+    "label": "NEUTRAL",
+    "score": 0.854
+  },
+  {
+    "pr_number": 746,
+    "user": "fumiama",
+    "text": "> > I am curious that why we choose move vllm codes to this project, instead of supporting the llm parts in vllm. Supporting the model in vllm will make such feature auto enabled, like streaming generate and continually batch\r\n> > also @fumiama for this question\r\n> \r\n> Because Vllm don't suport some feature:\r\n> \r\n> 1. custom lm-head\r\n> 2. multi-codebook sampler (custom sampler)\r\n> 3. sample without tokenizer\r\n> \r\n> In order for the sampler to support vllm features such as continuous batch and streaming generate, it is necessary to package the post model (lm_cead and others) into vllm schedular. This requires rewriting the VLLM part of the code.\r\n> \r\n> That's all\r\n\r\nThanks for your explanation.",
+    "label": "NEUTRAL",
+    "score": 0.841
+  },
+  {
+    "pr_number": 746,
+    "user": "niuzheng168",
+    "text": "> > I am curious that why we choose move vllm codes to this project, instead of supporting the llm parts in vllm. Supporting the model in vllm will make such feature auto enabled, like streaming generate and continually batch\r\n> > also @fumiama for this question\r\n> \r\n> Because Vllm don't suport some feature:\r\n> \r\n> 1. custom lm-head\r\n> 2. multi-codebook sampler (custom sampler)\r\n> 3. sample without tokenizer\r\n> \r\n> In order for the sampler to support vllm features such as continuous batch and streaming generate, it is necessary to package the post model (lm_cead and others) into vllm schedular. This requires rewriting the VLLM part of the code.\r\n> \r\n> That's all\r\n\r\nYes, we cannot use vllm directly as it requires some code changes. I have implemented a solution here, I am new to Torch and Python, so feel free for any comments.\r\nOnly for the llama part: \r\nModel: https://github.com/niuzheng168/vllm/blob/dev/vllm/model_executor/models/chattts.py \r\nSample usage: https://github.com/niuzheng168/vllm/blob/dev/chattts_sample.py\r\n\r\nFor the issues you list above:\r\n\r\n- We can create multiple lm_heads.\r\n- I noticed it [runs slowly](https://github.com/vllm-project/vllm/issues/8040#issuecomment-2322767368) when we run the sample N times, so I made a lite version of the multi-head sampler.\r\n- This is already supported in vllm by setting detokenize=false.\r\n\r\nOne of the main challenges is that vllm assumes all the model output is a single token, which is just an int value. However, the TTS system, whether chattts or fishtts, generates multi-head tokens in one decoding step. This means the model output is a token list, breaking the fundamental design. I had to use many if/else statements to ensure the whole pipeline still works.\r\n\r\nOverall, compared to moving vllm codes here, implementing a model in vllm will save effort for other features than core model inference, like sampling and scheduling, continual batch processing, etc.\r\nI also reply the road map of [vllm thread](https://github.com/vllm-project/vllm/issues/5805#issuecomment-2334044900), to see if push vllm support the model official, I believe more and more multi-modal models is using similar model arch, especially for those gpt-4o like models.",
+    "label": "NEUTRAL",
+    "score": 0.841
+  },
+  {
+    "pr_number": 746,
+    "user": "fumiama",
+    "text": "> > > I am curious that why we choose move vllm codes to this project, instead of supporting the llm parts in vllm. Supporting the model in vllm will make such feature auto enabled, like streaming generate and continually batch\r\n> > > also @fumiama for this question\r\n> > \r\n> > \r\n> > Because Vllm don't suport some feature:\r\n> > \r\n> > 1. custom lm-head\r\n> > 2. multi-codebook sampler (custom sampler)\r\n> > 3. sample without tokenizer\r\n> > \r\n> > In order for the sampler to support vllm features such as continuous batch and streaming generate, it is necessary to package the post model (lm_cead and others) into vllm schedular. This requires rewriting the VLLM part of the code.\r\n> > That's all\r\n> \r\n> Yes, we cannot use vllm directly as it requires some code changes. I have implemented a solution here, I am new to Torch and Python, so feel free for any comments. Only for the llama part: Model: https://github.com/niuzheng168/vllm/blob/dev/vllm/model_executor/models/chattts.py Sample usage: https://github.com/niuzheng168/vllm/blob/dev/chattts_sample.py\r\n> \r\n> For the issues you list above:\r\n> \r\n> * We can create multiple lm_heads.\r\n> * I noticed it [runs slowly](https://github.com/vllm-project/vllm/issues/8040#issuecomment-2322767368) when we run the sample N times, so I made a lite version of the multi-head sampler.\r\n> * This is already supported in vllm by setting detokenize=false.\r\n> \r\n> One of the main challenges is that vllm assumes all the model output is a single token, which is just an int value. However, the TTS system, whether chattts or fishtts, generates multi-head tokens in one decoding step. This means the model output is a token list, breaking the fundamental design. I had to use many if/else statements to ensure the whole pipeline still works.\r\n> \r\n> Overall, compared to moving vllm codes here, implementing a model in vllm will save effort for other features than core model inference, like sampling and scheduling, continual batch processing, etc. I also reply the road map of [vllm thread](https://github.com/vllm-project/vllm/issues/5805#issuecomment-2334044900), to see if push vllm support the model official, I believe more and more multi-modal models is using similar model arch, especially for those gpt-4o like models.\r\n\r\nThanks for your great effort. We welcome you to contribute your code into this repo if you like.",
+    "label": "NEUTRAL",
+    "score": 0.881
+  },
+  {
+    "pr_number": 746,
+    "user": "xiaohua-drive",
+    "text": "> > 这一个版本太强大了，我用4090测，流式api第一个chunk 65毫秒，而且音色能固定，太快了，太快了，怀疑电脑坏了\r\n> \r\n> 4090上使用compile=True耗时3.3s的文本，用main分支vllm加速是1.6s，不能调整音色，用这个pr的版本可以调整，但速度只有2.6s左右\r\n\r\n流式api第一个chunk 65毫秒，请问大佬能不能有偿教一下怎么把第一个合成的chunk马上播放出来",
+    "label": "NEUTRAL",
+    "score": 0.96
+  },
+  {
+    "pr_number": 746,
+    "user": "xiaohua-drive",
+    "text": "> 这个版本太强大了，我用4090测，流式api第一个块65毫秒，而且音色能力固定，太快了，太快了，怀疑电脑坏了\r\n\r\n流式api第一个块65毫秒，请问大佬能不能好好教一下怎么把第一个合成的块马上出来播放",
+    "label": "NEUTRAL",
+    "score": 0.957
+  },
+  {
+    "pr_number": 746,
+    "user": "ai408",
+    "text": "使用vLLM加速后，貌似不能流式输出了。",
+    "label": "NEUTRAL",
+    "score": 0.94
+  },
+  {
+    "pr_number": 746,
+    "user": "CJY1018",
+    "text": "@fengyizhu @fumiama \r\n请问使用 vLLM 后，还能进行批量推理吗？\r\n就是 chat.infer(texts, split_text=False）中当传入 texts 为列表时，推理出的音频为 0s\r\n\r\n还想问问大佬们 vLLM 只能使用单音色的问题现在解决了吗？",
+    "label": "NEUTRAL",
+    "score": 0.836
+  },
+  {
+    "pr_number": 746,
+    "user": "fengyizhu",
+    "text": "> @fengyizhu @fumiama 请问使用 vLLM 后，还能进行批量推理吗？ 就是 chat.infer(texts, split_text=False）中当传入 texts 为列表时，推理出的音频为 0s\r\n> \r\n> 还想问问大佬们 vLLM 只能使用单音色的问题现在解决了吗？\r\n\r\nyes",
+    "label": "NEUTRAL",
+    "score": 0.942
+  },
+  {
+    "pr_number": 746,
+    "user": "fengyizhu",
+    "text": "> @fengyizhu @fumiama 请问使用 vLLM 后，还能进行批量推理吗？ 就是 chat.infer(texts, split_text=False）中当传入 texts 为列表时，推理出的音频为 0s\r\n> \r\n> 还想问问大佬们 vLLM 只能使用单音色的问题现在解决了吗？\r\n\r\nhttps://github.com/fengyizhu/ChatTTS-VLLM  修复版",
+    "label": "NEUTRAL",
+    "score": 0.932
+  },
+  {
+    "pr_number": 746,
+    "user": "fumiama",
+    "text": "Why move this down?",
+    "label": "NEGATIVE",
+    "score": 0.812
+  },
+  {
+    "pr_number": 746,
+    "user": "fumiama",
+    "text": "No, don't remain this code. It has been moved to embed.py.",
+    "label": "NEGATIVE",
+    "score": 0.683
+  },
+  {
+    "pr_number": 746,
+    "user": "fumiama",
+    "text": "Please DO NOT remove the non-vLLM part. The vLLM is always an alternative speed up option since it cannot be used in EVERY devices.",
+    "label": "NEGATIVE",
+    "score": 0.785
+  },
+  {
+    "pr_number": 746,
+    "user": "fumiama",
+    "text": "DONOT change the default behavior.",
+    "label": "NEGATIVE",
+    "score": 0.924
+  },
+  {
+    "pr_number": 746,
+    "user": "fumiama",
+    "text": "DONOT change the default behavior.",
+    "label": "NEGATIVE",
+    "score": 0.924
+  },
+  {
+    "pr_number": 746,
+    "user": "fumiama",
+    "text": "DONOT change the default behavior.",
+    "label": "NEGATIVE",
+    "score": 0.924
+  },
+  {
+    "pr_number": 746,
+    "user": "fumiama",
+    "text": "DONOT change the default behavior.",
+    "label": "NEGATIVE",
+    "score": 0.924
+  },
+  {
+    "pr_number": 746,
+    "user": "fumiama",
+    "text": "DONOT change the default behavior.",
+    "label": "NEGATIVE",
+    "score": 0.924
+  },
+  {
+    "pr_number": 746,
+    "user": "fumiama",
+    "text": "DONOT change the default behavior.",
+    "label": "NEGATIVE",
+    "score": 0.924
+  },
+  {
+    "pr_number": 746,
+    "user": "fumiama",
+    "text": "DONOT change the default behavior.",
+    "label": "NEGATIVE",
+    "score": 0.924
+  },
+  {
+    "pr_number": 746,
+    "user": "fengyizhu",
+    "text": "ok",
+    "label": "NEUTRAL",
+    "score": 0.832
+  },
+  {
+    "pr_number": 746,
+    "user": "fengyizhu",
+    "text": "ok",
+    "label": "NEUTRAL",
+    "score": 0.832
+  },
+  {
+    "pr_number": 746,
+    "user": "fumiama",
+    "text": "No need to change it.",
+    "label": "NEUTRAL",
+    "score": 0.577
+  },
+  {
+    "pr_number": 746,
+    "user": "fumiama",
+    "text": "No need to change it.",
+    "label": "NEUTRAL",
+    "score": 0.577
+  },
+  {
+    "pr_number": 746,
+    "user": "fumiama",
+    "text": "No need to change it.",
+    "label": "NEUTRAL",
+    "score": 0.577
+  },
+  {
+    "pr_number": 746,
+    "user": "fumiama",
+    "text": "We don't want to introduce `librosa`. Modifying the original code makes sense. ex. replace\r\n```py\r\nkeep_cols = np.sum(new_wavs != 0, axis=0) > 0\r\n```\r\nwith\r\n```py\r\n# pseudo code without testing, just a hint\r\nkeep_cols = np.sum(abs(new_wavs) > 1e-6, axis=0) > 0\r\n```",
+    "label": "NEUTRAL",
+    "score": 0.68
+  },
+  {
+    "pr_number": 746,
+    "user": "fumiama",
+    "text": "It's not so good to call into the inner method and you should modify the outer one `gpt.llm.generate`.",
+    "label": "NEUTRAL",
+    "score": 0.673
+  },
+  {
+    "pr_number": 746,
+    "user": "fumiama",
+    "text": "If you move a line up, don't change the variable name when it's ok to remain the original one. It will make it difficult to see your changes.",
+    "label": "NEGATIVE",
+    "score": 0.577
+  },
+  {
+    "pr_number": 746,
+    "user": "fumiama",
+    "text": "Same.",
+    "label": "NEUTRAL",
+    "score": 0.923
+  },
+  {
+    "pr_number": 681,
+    "user": "ain-soph",
+    "text": "This PR fails `#655` unittest, which requires a further check.",
+    "label": "NEGATIVE",
+    "score": 0.954
+  },
+  {
+    "pr_number": 681,
+    "user": "ain-soph",
+    "text": "The first change in `character_simplier` seems not to be the expected behavior according to `#655` test file, as it requires the refined text still has `?` inside.\r\n\r\nI wonder since this `?` is invalid_character, which means it's not seen in training data. Shall we still keep that `?` in inference stage?",
+    "label": "NEUTRAL",
+    "score": 0.635
+  },
+  {
+    "pr_number": 681,
+    "user": "ain-soph",
+    "text": "After check, it seems both concerns are not expected behaviors. Close this issue.",
+    "label": "NEGATIVE",
+    "score": 0.934
+  },
+  {
+    "pr_number": 679,
+    "user": "fumiama",
+    "text": "Also, you can save the str to a txt file (with the ext .pt if you like) and use it just like a .pt file if you like.",
+    "label": "NEUTRAL",
+    "score": 0.898
+  },
+  {
+    "pr_number": 679,
+    "user": "ain-soph",
+    "text": "> Also, you can save the str to a txt file (with the ext .pt if you like) and use it just like a .pt file if you like.\r\n\r\n\"use it just like a .pt file if you like\" -> You mean we could directly read the tensor via `torch.load()` instead of using `pybase16384` to encode/decode? I didn't know that.",
+    "label": "NEUTRAL",
+    "score": 0.893
+  },
+  {
+    "pr_number": 679,
+    "user": "fumiama",
+    "text": "> > Also, you can save the str to a txt file (with the ext .pt if you like) and use it just like a .pt file if you like.\n> \n> \n> \n> \"use it just like a .pt file if you like\" -> You mean we could directly read the tensor via `torch.load()` instead of using `pybase16384` to encode/decode? I didn't know that.\n\nJust treat the str as a kind of binary.",
+    "label": "NEUTRAL",
+    "score": 0.903
+  },
+  {
+    "pr_number": 679,
+    "user": "fumiama",
+    "text": "I agree with your changes but as for this name, it'd be better to leave it unchanged.",
+    "label": "NEUTRAL",
+    "score": 0.904
+  },
+  {
+    "pr_number": 679,
+    "user": "ain-soph",
+    "text": "According to [PEP 8](https://peps.python.org/pep-0008/#method-names-and-instance-variables), \r\n> Use one leading underscore only for non-public methods and instance variables.\r\n\r\nIn finetuning case (I change the return type and no-inplace operation for this reason), we need to call this method out of class. Therefore, it's better not to start with a leading underscore if this method is expected to be exposed.",
+    "label": "NEUTRAL",
+    "score": 0.951
+  },
+  {
+    "pr_number": 679,
+    "user": "fumiama",
+    "text": "I know your meaning but we want to mark this method as unrecommended. Peopole should always use the str version except for some special reasons.",
+    "label": "NEUTRAL",
+    "score": 0.904
+  },
+  {
+    "pr_number": 679,
+    "user": "ain-soph",
+    "text": "Yes, that makes sense if there is no plan to add fine-tuning script.\r\nI'm currently working on my [fine-tuning branch](https://github.com/ain-soph/ChatTTS/tree/dev) and it seems to be working to some extent. Will the main repo maintainer consider a PR for supporting fine-tuning?",
+    "label": "NEUTRAL",
+    "score": 0.677
+  },
+  {
+    "pr_number": 679,
+    "user": "fumiama",
+    "text": "It sounds great, we will be happy to accept your contribution. As for the fine-tuning, since we will put the codes in the Chat class, it can contain such a internal api directly.",
+    "label": "POSITIVE",
+    "score": 0.989
+  },
+  {
+    "pr_number": 679,
+    "user": "ain-soph",
+    "text": "> It sounds great, we will be happy to accept your contribution. As for the fine-tuning, since we will put the codes in the Chat class, it can contain such an internal api directly.\r\n\r\nThat's where I feel confused. If you want to call `Speaker._sample_random()` method in `Chat` class, then it's an out-of-class call and it means this method is public (i.e., it's still internal w.r.t. this package, but public in terms of the class). If that's the case, it's better to not start with leading underscore if we want to obey the PEP 8 naming standard.\r\n\r\nOr do you mean you plan to re-implement such method in `Chat` class instead of calling `Speaker._sample_random()`? That doesn't sound like a good idea to make duplicates.",
+    "label": "POSITIVE",
+    "score": 0.752
+  },
+  {
+    "pr_number": 679,
+    "user": "ain-soph",
+    "text": "I see cases for cross-file import for non-class methods with leading underscore ([example](https://github.com/pytorch/vision/blob/f5d9ecd5024d1c4f21a5620cf2cca6d07eabd469/torchvision/prototype/datasets/utils/_resource.py#L21)), but I don't know if it's still the case for out-of-class usage for class methods with leading underscore.\r\n\r\nI think we may cc other maintainers for their ideas if there is a disagreement. But anyway, if you make the final decision, I'll make corresponding modification. It's just a small naming concern after all and many packages violate the PEP 8 standard.",
+    "label": "NEUTRAL",
+    "score": 0.972
+  },
+  {
+    "pr_number": 679,
+    "user": "fumiama",
+    "text": "Well, in this case, as our main purpose is to prevent users from using this method and the Speaker class is a single instance in Chat, we can regard it as a kind of `static` or `non-class`.",
+    "label": "NEUTRAL",
+    "score": 0.739
+  },
+  {
+    "pr_number": 669,
+    "user": "weedge",
+    "text": "@fumiama done",
+    "label": "NEUTRAL",
+    "score": 0.952
+  },
+  {
+    "pr_number": 669,
+    "user": "fumiama",
+    "text": "Using a model-type running seems meaningless because user should still edit this file and change the texts.",
+    "label": "NEGATIVE",
+    "score": 0.619
+  },
+  {
+    "pr_number": 669,
+    "user": "fumiama",
+    "text": "Well, you can put this function into original `run.py`.",
+    "label": "NEUTRAL",
+    "score": 0.889
+  },
+  {
+    "pr_number": 669,
+    "user": "fumiama",
+    "text": "Then, no need to modify this file.",
+    "label": "NEGATIVE",
+    "score": 0.507
+  },
+  {
+    "pr_number": 669,
+    "user": "fumiama",
+    "text": "Why need this function? It's not used at anywhere.",
+    "label": "NEGATIVE",
+    "score": 0.94
+  },
+  {
+    "pr_number": 669,
+    "user": "weedge",
+    "text": "@fumiama yep~, done,  remove, some example code don't commit",
+    "label": "NEGATIVE",
+    "score": 0.715
+  },
+  {
+    "pr_number": 663,
+    "user": "ain-soph",
+    "text": "Close because it's already fixed in `dev` branch. Didn't realize the existence of that branch.",
+    "label": "NEUTRAL",
+    "score": 0.813
+  },
+  {
+    "pr_number": 642,
+    "user": "wenyangchou",
+    "text": "When I deleted the code , there is a significant decrease in the number of bad cases .",
+    "label": "NEGATIVE",
+    "score": 0.832
+  },
+  {
+    "pr_number": 642,
+    "user": "fumiama",
+    "text": "ref #543",
+    "label": "NEUTRAL",
+    "score": 0.95
+  },
+  {
+    "pr_number": 642,
+    "user": "AdamMayor2018",
+    "text": "这个解决不了出现unexpected end at index [0]和显存爆炸问题。",
+    "label": "NEUTRAL",
+    "score": 0.75
+  },
+  {
+    "pr_number": 642,
+    "user": "fumiama",
+    "text": "> 这个解决不了出现unexpected end at index [0]和显存爆炸问题。\r\n\r\nunexpected end at index [0] 本身就和输入的内容和各项参数有关，但是这个错误大大加重了此问题。",
+    "label": "NEUTRAL",
+    "score": 0.918
+  },
+  {
+    "pr_number": 638,
+    "user": "fumiama",
+    "text": "这个好像没必要加to device",
+    "label": "NEUTRAL",
+    "score": 0.958
+  },
+  {
+    "pr_number": 638,
+    "user": "fumiama",
+    "text": "可以用.cpu()",
+    "label": "NEUTRAL",
+    "score": 0.965
+  },
+  {
+    "pr_number": 638,
+    "user": "ZaymeShaw",
+    "text": "```\r\n--> 167 torch.where(cond, n, emb, out=emb)\r\n    168 del cond, n\r\n\r\nRuntimeError: Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu!\r\n```\r\n这个是为了处理我遇到的另一个报错。我修正了之后不会再报。\r\n我看了设备信息是这样的：cond: cuda:0 n: cpu emb: cpu。原代码里面n和emb都在device_gpt上，所以把cond也调整到device_gpt应该是需要的",
+    "label": "NEUTRAL",
+    "score": 0.922
+  },
+  {
+    "pr_number": 638,
+    "user": "fumiama",
+    "text": "ok，理论上device_gpt和device在cuda上应该是相同的，不应该出现cpu才对😂",
+    "label": "NEUTRAL",
+    "score": 0.96
+  },
+  {
+    "pr_number": 638,
+    "user": "fumiama",
+    "text": "我发现了，你真正应该改的地方是\n\nhttps://github.com/2noise/ChatTTS/blob/06b823be8b80ddd66fb1d42fd2a0fc6bf19c0203/ChatTTS/core.py#L299\n\n下面插入device_gpt参数，把device统一为cuda，这样就不用改这一处了。",
+    "label": "NEUTRAL",
+    "score": 0.973
+  },
+  {
+    "pr_number": 638,
+    "user": "ZaymeShaw",
+    "text": "ok。这个修改确实是最正确的",
+    "label": "NEUTRAL",
+    "score": 0.959
+  },
+  {
+    "pr_number": 622,
+    "user": "fumiama",
+    "text": "我又想了一下，还是放`examples`比较好，`examples/onnx`",
+    "label": "NEUTRAL",
+    "score": 0.938
+  },
+  {
+    "pr_number": 622,
+    "user": "ZillaRU",
+    "text": "😂卡在了自动检查，setuptools出错",
+    "label": "NEUTRAL",
+    "score": 0.962
+  },
+  {
+    "pr_number": 622,
+    "user": "fumiama",
+    "text": "OK了，他有的时候抽风，需要重新运行一下。",
+    "label": "NEUTRAL",
+    "score": 0.964
+  },
+  {
+    "pr_number": 622,
+    "user": "fumiama",
+    "text": "为什么需要侵入式修改？如无法避免，建议自建仓库，然后由 @libukai 收录到 [Awesome-ChatTTS](https://github.com/libukai/Awesome-ChatTTS)",
+    "label": "POSITIVE",
+    "score": 0.748
+  },
+  {
+    "pr_number": 622,
+    "user": "ZillaRU",
+    "text": "ok 我参考下tools。直接加一个用于转换的gpt.py实现在tools下面，这样可以接受吗？",
+    "label": "NEUTRAL",
+    "score": 0.973
+  },
+  {
+    "pr_number": 622,
+    "user": "fumiama",
+    "text": "只要你不动用户已经安装的库，怎么样搞无所谓。侵入式修改库是很危险的行为，不是官方库应当提倡的。",
+    "label": "NEUTRAL",
+    "score": 0.933
+  },
+  {
+    "pr_number": 564,
+    "user": "fumiama",
+    "text": "要注意从后往前删除连续的0，以避免真正的编码中确实有0的可能性（虽然小，但不是没有）。",
+    "label": "NEUTRAL",
+    "score": 0.923
+  },
+  {
+    "pr_number": 564,
+    "user": "Ox0400",
+    "text": "```\r\n>>> import numpy as np\r\n>>> \r\n>>> array = np.array([[1, 2, 3, 0, 0],\r\n...                   [4, 5, 6, 0, 0],\r\n...                   [0, 0, 0, 0, 0],\r\n...                   [7, 0, 9, 0, 0],\r\n...                   [0, 0, 0, 0, 0]])\r\n>>> \r\n>>> # Identify rows with non-zero elements using np.any\r\n>>> keep_rows = np.any(array != 0, axis=1)\r\n>>> keep_cols = np.sum(array != 0, axis=0) > 0\r\n>>> # Filter both rows and columns using slicing\r\n>>> result = array[keep_rows, :][:, keep_cols]\r\n>>> \r\n>>> \r\n>>> result\r\narray([[1, 2, 3],\r\n       [4, 5, 6],\r\n       [7, 0, 9]])\r\n>>> \r\n\r\n\r\n\r\n```",
+    "label": "NEUTRAL",
+    "score": 0.971
+  },
+  {
+    "pr_number": 564,
+    "user": "fumiama",
+    "text": "维数不能变啊，就算给个[]或者None也行。另外，请解决冲突（可以先用最新版代码覆盖，然后加以更改）",
+    "label": "NEUTRAL",
+    "score": 0.935
+  },
+  {
+    "pr_number": 564,
+    "user": "Ox0400",
+    "text": "> 维数不能变啊，就算给个[]或者None也行。另外，请解决冲突（可以先用最新版代码覆盖，然后加以更改）\r\n\r\n我实际测试中是没有问题的, 所有的噪音都没了... 我是想 16k 的大小, 如果某个维度全是 0, 这个维度是不是本身就有问题",
+    "label": "NEUTRAL",
+    "score": 0.941
+  },
+  {
+    "pr_number": 564,
+    "user": "fumiama",
+    "text": "> 如果某个维度全是 0, 这个维度是不是本身就有问题\n\n是有问题，但不能错位，要不其它的都对不上下标了，这就把问题扩大了。",
+    "label": "NEUTRAL",
+    "score": 0.941
+  },
+  {
+    "pr_number": 564,
+    "user": "Ox0400",
+    "text": "按照这个逻辑 ? 最后一行全 0 需要删么\r\n```\r\n>>> array = np.array(\r\n... [[1, 2, 3, 0, 0],\r\n... [4, 5, 6, 0, 0],\r\n... [0, 0, 0, 0, 0],\r\n... [7, 0, 9, 0, 0],\r\n... [7, 0, 9, 2, 0],\r\n... [0, 0, 0, 0, 0]]\r\n... )\r\n\r\n>>> result\r\narray([[1, 2, 3, 0],\r\n       [4, 5, 6, 0],\r\n       [0, 0, 0, 0],\r\n       [7, 0, 9, 0],\r\n       [7, 0, 9, 2],\r\n       [0, 0, 0, 0]])\r\n```",
+    "label": "NEUTRAL",
+    "score": 0.96
+  },
+  {
+    "pr_number": 564,
+    "user": "fumiama",
+    "text": "> 最后一行全 0 需要删么\r\n\r\n不用，就这样就行。👍",
+    "label": "NEUTRAL",
+    "score": 0.918
+  },
+  {
+    "pr_number": 564,
+    "user": "fumiama",
+    "text": "中间有0怎么办呢",
+    "label": "NEUTRAL",
+    "score": 0.949
+  },
+  {
+    "pr_number": 564,
+    "user": "Ox0400",
+    "text": "就是按照这个实现的\r\n\r\nhttps://github.com/2noise/ChatTTS/pull/564#issuecomment-2227595065\r\n\r\n```\r\nimport numpy as np\r\n\r\narray = np.array(\r\n[[1, 2, 3, 0, 0],\r\n[4, 5, 6, 0, 0],\r\n[0, 0, 0, 0, 0],\r\n[7, 0, 9, 0, 0],\r\n[7, 0, 9, 2, 0],\r\n[0, 0, 0, 0, 0]]\r\n)\r\n\r\n# Identify rows with non-zero elements using np.any\r\n# keep_rows = np.any(array != 0, axis=1)\r\nkeep_cols = np.sum(array != 0, axis=0) > 0\r\n# Filter both rows and columns using slicing\r\nresult = array[:][:, keep_cols]\r\nprint(result)\r\n\r\n>>> print(result)\r\n[[1 2 3 0]\r\n [4 5 6 0]\r\n [0 0 0 0]\r\n [7 0 9 0]\r\n [7 0 9 2]\r\n [0 0 0 0]]\r\n>>> \r\n```",
+    "label": "NEUTRAL",
+    "score": 0.98
+  },
+  {
+    "pr_number": 564,
+    "user": "fumiama",
+    "text": "OK.",
+    "label": "NEUTRAL",
+    "score": 0.853
+  },
+  {
+    "pr_number": 549,
+    "user": "fumiama",
+    "text": "Maybe you should use\r\n```py\r\nfrom tools.audio import batch_unsafe_float_to_int16\r\n```\r\nor change it.",
+    "label": "NEUTRAL",
+    "score": 0.892
+  },
+  {
+    "pr_number": 549,
+    "user": "fumiama",
+    "text": "No need of `@classmethod`. Maybe you mean `@staticmethod`?",
+    "label": "NEUTRAL",
+    "score": 0.78
+  },
+  {
+    "pr_number": 549,
+    "user": "fumiama",
+    "text": "No need of `@classmethod`. Maybe you mean `@staticmethod`?",
+    "label": "NEUTRAL",
+    "score": 0.78
+  },
+  {
+    "pr_number": 549,
+    "user": "fumiama",
+    "text": "No need of `@classmethod`. Maybe you mean `@staticmethod`?",
+    "label": "NEUTRAL",
+    "score": 0.78
+  },
+  {
+    "pr_number": 549,
+    "user": "fumiama",
+    "text": "No need of `@classmethod`. Maybe you mean `@staticmethod`?",
+    "label": "NEUTRAL",
+    "score": 0.78
+  },
+  {
+    "pr_number": 549,
+    "user": "fumiama",
+    "text": "No need of `@classmethod`. Maybe you mean `@staticmethod`?",
+    "label": "NEUTRAL",
+    "score": 0.78
+  },
+  {
+    "pr_number": 549,
+    "user": "fumiama",
+    "text": "No need of `@classmethod`. Just use `self`. Then call it after initializing an instance `streamer = ChatStreamer()`",
+    "label": "NEUTRAL",
+    "score": 0.95
+  },
+  {
+    "pr_number": 549,
+    "user": "fumiama",
+    "text": "Import pyaudio here, but not below.",
+    "label": "NEUTRAL",
+    "score": 0.966
+  },
+  {
+    "pr_number": 549,
+    "user": "fumiama",
+    "text": "You can combine the two examples into one function called `play`, and adjust it with the parameter. Ex. when pass `first_prefill_size=0`, the function will behave the same way as old `example_0`.",
+    "label": "NEUTRAL",
+    "score": 0.957
+  },
+  {
+    "pr_number": 549,
+    "user": "ZaymeShaw",
+    "text": "Thanks for the suggestion! I tried batch_unsafe_float_to_int16 in tools before and found some problems when running in jit mode.So i make some changes in the example. I can merge it into the tools later.",
+    "label": "NEUTRAL",
+    "score": 0.691
+  },
+  {
+    "pr_number": 533,
+    "user": "Gloridust",
+    "text": "I committed the fixed version, please check it again.",
+    "label": "NEUTRAL",
+    "score": 0.965
+  },
+  {
+    "pr_number": 533,
+    "user": "fumiama",
+    "text": "Besides EN version `README.md`, the link refer to FR should be `../fr/README.md`. The other files have the same problem.",
+    "label": "NEGATIVE",
+    "score": 0.631
+  },
+  {
+    "pr_number": 533,
+    "user": "fumiama",
+    "text": "You can click them to test whether the links are reachable.",
+    "label": "NEUTRAL",
+    "score": 0.955
+  },
+  {
+    "pr_number": 533,
+    "user": "Gloridust",
+    "text": "Thanks for pointing out the problem, I will fix it soon",
+    "label": "POSITIVE",
+    "score": 0.873
+  },
+  {
+    "pr_number": 512,
+    "user": "ZaymeShaw",
+    "text": "我发现一个问题，stream infer的generator正常生成的是12032维的ndarray列表，但有小概率会在中间变成256维ndarray列表，256维部分的声音全是噪声，这个应该不是我的流式播放处理逻辑导致的问题。我尝试把流式输出全部先取出来再播放，256维部分也是噪声。大概每运行10几次streamchat左右会出现一次这个问题",
+    "label": "NEUTRAL",
+    "score": 0.956
+  },
+  {
+    "pr_number": 512,
+    "user": "fumiama",
+    "text": "> 我发现一个问题，stream infer的generator正常生成的是12032维的ndarray列表，但有小概率会在中间变成256维ndarray列表，256维部分的声音全是噪声\r\n\r\n可以开一个issue，这应该是流式自己的问题。",
+    "label": "NEUTRAL",
+    "score": 0.952
+  },
+  {
+    "pr_number": 512,
+    "user": "fumiama",
+    "text": "应在requirements.txt加入相关依赖。",
+    "label": "NEUTRAL",
+    "score": 0.884
+  },
+  {
+    "pr_number": 512,
+    "user": "fumiama",
+    "text": "可使用防爆音的`tools.audio.unsafe_float_to_int16`",
+    "label": "NEUTRAL",
+    "score": 0.733
+  },
+  {
+    "pr_number": 512,
+    "user": "fumiama",
+    "text": "效率太低，建议用\r\n```py\r\nwaveform.astype(\"<i2\").tobytes()\r\n```",
+    "label": "NEUTRAL",
+    "score": 0.955
+  },
+  {
+    "pr_number": 512,
+    "user": "fumiama",
+    "text": "可省略前缀`TTS`，直接命名为`ChatStreamer`。",
+    "label": "NEUTRAL",
+    "score": 0.96
+  },
+  {
+    "pr_number": 512,
+    "user": "fumiama",
+    "text": "名字直接`play`即可。",
+    "label": "NEUTRAL",
+    "score": 0.961
+  },
+  {
+    "pr_number": 512,
+    "user": "fumiama",
+    "text": "建议将此方法包装入streamer，可命名为`start`，同时提供对应join。",
+    "label": "NEUTRAL",
+    "score": 0.974
+  },
+  {
+    "pr_number": 512,
+    "user": "fumiama",
+    "text": "既然已经流式，可不必播放完整声音。",
+    "label": "NEUTRAL",
+    "score": 0.941
+  },
+  {
+    "pr_number": 512,
+    "user": "ZaymeShaw",
+    "text": "感谢建议！",
+    "label": "NEUTRAL",
+    "score": 0.916
+  },
+  {
+    "pr_number": 488,
+    "user": "fumiama",
+    "text": "Thanks! You may also want to remove the redundant output transpose here.",
+    "label": "NEUTRAL",
+    "score": 0.515
+  },
+  {
+    "pr_number": 488,
+    "user": "charSLee013",
+    "text": "Yes! thank you for the reminder",
+    "label": "POSITIVE",
+    "score": 0.974
+  },
+  {
+    "pr_number": 463,
+    "user": "quanqigu",
+    "text": "请问大佬，现在要怎么加载之前的音色呢？",
+    "label": "NEUTRAL",
+    "score": 0.951
+  },
+  {
+    "pr_number": 463,
+    "user": "fumiama",
+    "text": "> 请问大佬，现在要怎么加载之前的音色呢？\n\n有一个隐藏方法`chat._encode_epk_emb`",
+    "label": "NEUTRAL",
+    "score": 0.956
+  }
+]
