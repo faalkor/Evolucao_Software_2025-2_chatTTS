@@ -1,6 +1,4 @@
-# Nome da Atividade
-
-Análise de Sentimentos em Evolução de Software
+# Análise de Sentimentos em Evolução de Software
 
 ## 📋 Tutorial da Atividade
 
