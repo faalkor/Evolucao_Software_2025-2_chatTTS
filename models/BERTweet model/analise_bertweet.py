@@ -4,7 +4,7 @@ import json
 
 # Configurações gerais
 MODEL_NAME = "finiteautomata/bertweet-base-sentiment-analysis"
-INPUT_FILE = "pr_comments_2noise_ChatTTS_closed_nobots_True.json"
+INPUT_FILE = "../../PRs_comments/pr_comments_2noise_ChatTTS_closed_nobots_True.json"
 OUTPUT_FILE = "sentiments_bertweet.json"
 
 # Função auxiliar para normalizar labels

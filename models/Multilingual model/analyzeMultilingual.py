@@ -4,7 +4,7 @@ import json
 
 # === CONFIGURAÇÃO ===
 MODEL_NAME = "tabularisai/multilingual-sentiment-analysis"
-INPUT_FILE = "pr_comments_2noise_ChatTTS_closed_nobots_True.json"
+INPUT_FILE = "../../PRs_comments/pr_comments_2noise_ChatTTS_closed_nobots_True.json"
 OUTPUT_FILE = "sentiments_multilingual.json"
 
 # === FUNÇÃO DE NORMALIZAÇÃO DE LABEL ===
