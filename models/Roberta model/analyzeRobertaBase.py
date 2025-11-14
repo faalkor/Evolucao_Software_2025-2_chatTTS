@@ -1,10 +1,18 @@
 from transformers import pipeline
 from collections import Counter
 import json
+import os
 
 # === CONFIGURAÇÃO ===
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
 MODEL_NAME = "cardiffnlp/twitter-roberta-base-sentiment-latest"
-INPUT_FILE = "../../PRs_comments/pr_comments_2noise_ChatTTS_closed_nobots_True.json"
+INPUT_FILE = os.path.join(
+    BASE_DIR,
+    '..',
+    "PRs_comments",
+    "pr_comments_2noise_ChatTTS_closed_nobots_True.json"
+)
 OUTPUT_FILE = "sentiments_roberta.json"
 
 # === FUNÇÃO DE NORMALIZAÇÃO DE LABEL ===
