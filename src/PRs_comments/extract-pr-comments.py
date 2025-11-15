@@ -218,6 +218,8 @@ class GitHubPRComments:
         return all_data
     
     def save_to_file(self, data: Dict, filename: str = None):
+        current_dir = os.path.dirname(os.path.abspath(__file__))
+
         """Salva os dados em um arquivo JSON"""
         if filename is None:
             filters = data["filters"]
@@ -225,7 +227,9 @@ class GitHubPRComments:
             exclude_bots = filters["exclude_bots"]
             filename = f"pr_comments_{self.owner}_{self.repo}_{state}_nobots_{exclude_bots}.json"
         
-        with open(filename, 'w', encoding='utf-8') as f:
+        output_path = os.path.join(current_dir, filename)
+        
+        with open(output_path, 'w', encoding='utf-8') as f:
             json.dump(data, f, ensure_ascii=False, indent=2)
         
         self.safe_print(f"Dados salvos em {filename}")
@@ -233,9 +237,9 @@ class GitHubPRComments:
 # Configuração e uso
 def main():
     # CONFIGURAÇÕES
-    GITHUB_TOKEN = "seu_token_aqui"  # Token de acesso pessoal do GitHub
-    REPO_OWNER = "owner_do_repositorio"  # Ex: "facebook"
-    REPO_NAME = "nome_do_repositorio"  # Ex: "react"
+    GITHUB_TOKEN = "seu_token"  # Token de acesso pessoal do GitHub
+    REPO_OWNER = "owner_repositorio"  # Ex: "facebook"
+    REPO_NAME = "nome_repositorio"  # Ex: "react"
     
     # Criar instância
     github = GitHubPRComments(
