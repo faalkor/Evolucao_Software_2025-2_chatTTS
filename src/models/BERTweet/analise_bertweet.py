@@ -1,101 +1,105 @@
-from transformers import pipeline
-from collections import Counter
-import json
-import os
+def run_bertweet():
 
-# Configurações gerais
-BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    from transformers import pipeline
+    from collections import Counter
+    import json
+    import os
 
-MODEL_NAME = "finiteautomata/bertweet-base-sentiment-analysis"
-INPUT_FILE = os.path.join(
-    BASE_DIR,
-    '..',
-    "PRs_comments",
-    "pr_comments_2noise_ChatTTS_closed_nobots_True.json"
-)
-OUTPUT_FILE = os.path.join(
-    BASE_DIR,
-    "..",
-    "results",
-    "bertweet_sentiment_results.json"
-)
+    # Configurações gerais
+    BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-# Função auxiliar para normalizar labels
-def normalize_label(label: str) -> str:
-    label = label.strip().lower()
-    if "neg" in label:
-        return "NEGATIVE"
-    elif "neu" in label:
-        return "NEUTRAL"
-    elif "pos" in label:
-        return "POSITIVE"
-    else:
-        return label.upper()
- 
-# Inicialização do modelo
-print(f"🚀 Carregando modelo {MODEL_NAME}...")
-analyzer = pipeline(
-    "sentiment-analysis",
-    model=MODEL_NAME,
-    tokenizer=MODEL_NAME,
-    truncation=True,
-    max_length=128
-)
-print("✅ Modelo carregado com sucesso!\n")
+    MODEL_NAME = "finiteautomata/bertweet-base-sentiment-analysis"
+    INPUT_FILE = os.path.join(
+        BASE_DIR,
+        '..',
+        "PRs_comments",
+        "pr_comments_2noise_ChatTTS_closed_nobots_True.json"
+    )
+    OUTPUT_FILE = os.path.join(
+        BASE_DIR,
+        "..",
+        "results",
+        "bertweet_sentiment_results.json"
+    )
 
-# Leitura do arquivos JSON de PRs
-with open(INPUT_FILE, encoding="utf-8") as f:
-    data = json.load(f)
+    # Função auxiliar para normalizar labels
+    def normalize_label(label: str) -> str:
+        label = label.strip().lower()
+        if "neg" in label:
+            return "NEGATIVE"
+        elif "neu" in label:
+            return "NEUTRAL"
+        elif "pos" in label:
+            return "POSITIVE"
+        else:
+            return label.upper()
+    
+    # Inicialização do modelo
+    print(f"🚀 Carregando modelo {MODEL_NAME}...")
+    analyzer = pipeline(
+        "sentiment-analysis",
+        model=MODEL_NAME,
+        tokenizer=MODEL_NAME,
+        truncation=True,
+        max_length=128
+    )
+    print("✅ Modelo carregado com sucesso!\n")
 
-comments = []
-for pr in data["prs"]:
-    for comment in pr["comments"]:
-        body = comment["body"].strip()
-        if body:  # ignora comentários vazios
-            comments.append({
-                "pr_number": pr["number"],
-                "user": comment["user"],
-                "text": body
+    # Leitura do arquivos JSON de PRs
+    with open(INPUT_FILE, encoding="utf-8") as f:
+        data = json.load(f)
+
+    comments = []
+    for pr in data["prs"]:
+        for comment in pr["comments"]:
+            body = comment["body"].strip()
+            if body:  # ignora comentários vazios
+                comments.append({
+                    "pr_number": pr["number"],
+                    "user": comment["user"],
+                    "text": body
+                })
+
+    print(f"💬 Total de comentários coletados: {len(comments)}\n")
+
+    # Análise de sentimentos
+    results = []
+    for i, c in enumerate(comments, 1):
+        text = c["text"]
+        try:
+            sentiment = analyzer(text, truncation=True, max_length=128)[0]
+            label = normalize_label(sentiment["label"])
+            score = round(sentiment["score"], 3)
+
+            results.append({
+                "pr_number": c["pr_number"],
+                "user": c["user"],
+                "text": text,
+                "label": label,
+                "score": score
             })
 
-print(f"💬 Total de comentários coletados: {len(comments)}\n")
+            if i % 20 == 0:
+                print(f"🔎 Processados {i}/{len(comments)} comentários...")
 
-# Análise de sentimentos
-results = []
-for i, c in enumerate(comments, 1):
-    text = c["text"]
-    try:
-        sentiment = analyzer(text, truncation=True, max_length=128)[0]
-        label = normalize_label(sentiment["label"])
-        score = round(sentiment["score"], 3)
+        except Exception as e:
+            print(f"⚠️ Erro ao processar comentário do PR #{c['pr_number']}: {e}")
 
-        results.append({
-            "pr_number": c["pr_number"],
-            "user": c["user"],
-            "text": text,
-            "label": label,
-            "score": score
-        })
+    # Salvando resultados
+    with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
+        json.dump(results, f, ensure_ascii=False, indent=2)
 
-        if i % 20 == 0:
-            print(f"🔎 Processados {i}/{len(comments)} comentários...")
+    print(f"💾 Resultados salvos em {OUTPUT_FILE}\n")
 
-    except Exception as e:
-        print(f"⚠️ Erro ao processar comentário do PR #{c['pr_number']}: {e}")
+    # Gerando resumo dos sentimentos
+    counts = Counter([r["label"] for r in results])
+    total = sum(counts.values())
 
-# Salvando resultados
-with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
-    json.dump(results, f, ensure_ascii=False, indent=2)
+    print("--- 📊 Resultados ---")
+    for label in ["POSITIVE", "NEUTRAL", "NEGATIVE"]:
+        count = counts.get(label, 0)
+        print(f"{label:<8}: {count:3} ({count/total:.1%})")
 
-print(f"💾 Resultados salvos em {OUTPUT_FILE}\n")
+    print(f"\nTotal de comentários analisados: {total}")
 
-# Gerando resumo dos sentimentos
-counts = Counter([r["label"] for r in results])
-total = sum(counts.values())
-
-print("--- 📊 Resultados ---")
-for label in ["POSITIVE", "NEUTRAL", "NEGATIVE"]:
-    count = counts.get(label, 0)
-    print(f"{label:<8}: {count:3} ({count/total:.1%})")
-
-print(f"\nTotal de comentários analisados: {total}")
+    return results
