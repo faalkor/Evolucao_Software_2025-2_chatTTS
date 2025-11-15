@@ -13,7 +13,12 @@ INPUT_FILE = os.path.join(
     "PRs_comments",
     "pr_comments_2noise_ChatTTS_closed_nobots_True.json"
 )
-OUTPUT_FILE = "sentiments_roberta.json"
+OUTPUT_FILE = os.path.join(
+    BASE_DIR,
+    "..",
+    "results",
+    "roberta_sentiment_results.json"
+)
 
 # === FUNÇÃO DE NORMALIZAÇÃO DE LABEL ===
 def normalize_label(label: str) -> str:
