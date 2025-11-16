@@ -4,7 +4,7 @@
 
 O tutorial completo com as instruções passo a passo para realizar esta atividade está disponível em PDF:
 
-[📖 **Acessar Tutorial em PDF**](./Douglas_Deda_Gabriel_Almeida_Henrick_Cardoso_Ian_Conceição_Mariana_Nunes_Pablo_Freire_Rafael_Oliveira_Yasmim_Lima_Atividade_1.pdf)
+[📖 **Acessar Tutorial em PDF**](https://drive.google.com/file/d/1jfHUxkJT1pPln7FGbHeFUycKs6SLJKQO/view?usp=sharing)
 
 ## 📰 Projeto
 - [**ChatTTS**](https://github.com/2noise/ChatTTS)
